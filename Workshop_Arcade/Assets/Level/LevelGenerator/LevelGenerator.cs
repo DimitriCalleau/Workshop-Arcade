@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hello : MonoBehaviour
+public class LevelGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
