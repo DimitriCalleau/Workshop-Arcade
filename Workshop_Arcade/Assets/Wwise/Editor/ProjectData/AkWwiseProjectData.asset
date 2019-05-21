@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b8e29894fc12b419a108cdd7514540, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{C200B5AC-F74B-4875-A2AB-192157C94FEA}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499322230
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499390483
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
+    m_lastTimePart2: -1999184425
+    m_lastTimePsrt1: -413486645
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: f7d6aaf3f0b50d4d84889db3359f3401
+      ID: -1133058374
+      Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+  basePath: Audio\GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
+    m_lastTimePart2: -1999184425
+    m_lastTimePsrt1: -413517388
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: 7fba790060a62548a1df379fad5b7e14
+      ID: -36314244
+      Name: Test_Event
+      Path: Default Work Unit\Test\Test_Event
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 4
+      - ElementName: Test_Event
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /ArcadeProject
+  - /ArcadeProject/Events
+  - /ArcadeProject/Events/Default Work Unit
+  - /ArcadeProject/Events/Default Work Unit/Test
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{739D51E2-5C0E-4DB4-9CE6-B1F10258666A}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499409878
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{4FA18C0D-4036-42AF-A283-3A8244C5ECDB}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499371793
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{D50A5FAC-5BD6-4E92-80B5-3384C0677F47}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499380503
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{DA86A813-B2A3-432C-BB4D-3AAD2B76A2D0}'
+    m_lastTimePart2: -1999184426
+    m_lastTimePsrt1: -499490212
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []

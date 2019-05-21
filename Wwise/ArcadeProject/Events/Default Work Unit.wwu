@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Test" ID="{6A3D6B1E-2C7B-4605-8F32-FE994F2F89E1}" ShortID="761612813">
+					<ChildrenList>
+						<Event Name="Test_Event" ID="{0079BA7F-A660-4825-A1DF-379FAD5B7E14}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
