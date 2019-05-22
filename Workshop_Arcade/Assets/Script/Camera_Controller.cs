@@ -42,10 +42,14 @@ public class Camera_Controller : MonoBehaviour
             if(P1.transform.position.y < P2.transform.position.y)
             {
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
+                P2.GetComponent<Character_Controller_2Player>().score -= 10;
+                P2.transform.position = P1.transform.position;
             }
             if (P1.transform.position.y > P2.transform.position.y)
             {
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, trucpourlelerpjsaispascequecest);
+                P1.GetComponent<Character_Controller_1Player>().score -= 10;
+                P1.transform.position = P2.transform.position;
             }
         }
     }
