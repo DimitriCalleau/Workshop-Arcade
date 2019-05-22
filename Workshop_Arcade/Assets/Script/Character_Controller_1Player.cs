@@ -19,7 +19,7 @@ public class Character_Controller_1Player : MonoBehaviour
     public GameObject basicBullet;
 
     public GameObject shooter;
-    public GameObject P2;
+    private GameObject P2;
     public Rigidbody2D rigidbody;
 
     //Vie
@@ -30,6 +30,7 @@ public class Character_Controller_1Player : MonoBehaviour
     void Start()
     {
         isGrounded = false;
+        P2 = GameObject.FindGameObjectsWithTag("Player")[1];
     }
 
     private void FixedUpdate()

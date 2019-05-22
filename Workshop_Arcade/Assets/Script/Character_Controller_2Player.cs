@@ -18,7 +18,7 @@ public class Character_Controller_2Player : MonoBehaviour
     public GameObject basicBullet;
 
     public GameObject shooter;
-    public GameObject P1;
+    private GameObject P1;
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     public int score = 0;
@@ -27,6 +27,7 @@ public class Character_Controller_2Player : MonoBehaviour
     void Start()
     {
         isGrounded = false;
+        P1 = GameObject.FindGameObjectsWithTag("Player")[0];
     }
 
     private void FixedUpdate()
@@ -77,6 +78,9 @@ public class Character_Controller_2Player : MonoBehaviour
 
         if (Health <= 0)
         {
+            gameObject.transform.position = P1.transform.position;
+            Health = 4;
+            score -= 50;
         }
     }
 
