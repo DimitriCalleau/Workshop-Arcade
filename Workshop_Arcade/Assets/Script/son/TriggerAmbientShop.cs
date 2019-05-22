@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TriggerAmbientShop : MonoBehaviour
 {
-    public GameObject p1;
-    public GameObject p2;
+    private GameObject p1;
+    private GameObject p2;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -17,9 +17,12 @@ public class TriggerAmbientShop : MonoBehaviour
             Debug.Log("TriggerShop");
         }
 
-        p2 = GameObject.FindGameObjectsWithTag("Player")[1];
+        if (GameObject.FindGameObjectsWithTag("Player")[1])
+        {
+            p2 = GameObject.FindGameObjectsWithTag("Player")[1];
+        }
 
-        if (col.gameObject == p1 || col.gameObject == p2)
+        if (col.gameObject == p2)
         {
             AkSoundEngine.PostEvent("shop_Ambient", this.gameObject);
             Debug.Log("TriggerShop");
