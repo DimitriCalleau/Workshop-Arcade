@@ -22,14 +22,13 @@ public class Character_Controller_1Player : MonoBehaviour
     public Rigidbody2D rigidbody;
 
     //Vie
-
-    public int Health;
+    public int score = 0;
+    private int Health = 4;
 
     // Start is called before the first frame update
     void Start()
     {
         isGrounded = false;
-        Health = 4;
     }
 
     private void FixedUpdate()
@@ -48,12 +47,10 @@ public class Character_Controller_1Player : MonoBehaviour
                 Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
             }
         }
-
     }
 
     void Update()
     {
-        //Debug.Log(rigidbody.velocity.y);
         //Inputs
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
@@ -78,14 +75,8 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
         }
-    }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Ground"))
-        {
-            isGrounded = true;
-        }
+        //mort
 
         if (Health <= 0)
         {
@@ -94,13 +85,26 @@ public class Character_Controller_1Player : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Health -= 1;
+        if(other.gameObject.tag == "Enemy")
+        {
+            Health -= 1;
+            Debug.Log("ta grosse daronee");
+
+        }
     }
 }

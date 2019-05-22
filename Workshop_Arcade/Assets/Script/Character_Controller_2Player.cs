@@ -11,7 +11,6 @@ public class Character_Controller_2Player : MonoBehaviour
     public bool jump;
     public bool isGrounded;
 
-    private int nbJump = 0;
     private float horizontal;
     public float ySpeed;
 
@@ -21,6 +20,9 @@ public class Character_Controller_2Player : MonoBehaviour
     public GameObject shooter;
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
+    public int score = 0;
+    private int Health = 4;
+
     void Start()
     {
         isGrounded = false;
@@ -42,12 +44,10 @@ public class Character_Controller_2Player : MonoBehaviour
                 Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
             }
         }
-
     }
 
     void Update()
     {
-        //Debug.Log(rigidbody.velocity.y);
         //Inputs
         jump = Input.GetButtonDown("Jump2");
         horizontal = Input.GetAxis("Horizontal2");
@@ -71,6 +71,14 @@ public class Character_Controller_2Player : MonoBehaviour
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
         }
+
+        //mort
+
+        if (Health <= 0)
+        {
+            //Faire réap? mettre le score a ?juste detruire?
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -84,5 +92,14 @@ public class Character_Controller_2Player : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Debug.Log("ta grosse daronee");
+            Health -= 1;
+        }
     }
 }
