@@ -55,7 +55,8 @@ public class Character_Controller : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().flipX = true;
         }
-        if (horizontal != 0 && Rigidbody.velocity.magnitude <= speed)
+
+        if (horizontal != 0)
         {
             Rigidbody.velocity = new Vector2(speed * horizontal, Rigidbody.velocity.y);
         }
