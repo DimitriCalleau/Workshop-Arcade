@@ -187,13 +187,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 528723363, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
-      propertyPath: ySpeed
-      value: -200
+    - target: {fileID: 6663046553765681002, guid: 63076596a42d91a4eafc9665fc0dd7c7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
       objectReference: {fileID: 0}
-    - target: {fileID: 528723363, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
-      propertyPath: amortie
-      value: 10
+    - target: {fileID: 6663046553765681002, guid: 63076596a42d91a4eafc9665fc0dd7c7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663046553765681002, guid: 63076596a42d91a4eafc9665fc0dd7c7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
@@ -266,6 +273,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ec6b32e47477574a9212cd348136a64, type: 3}
+--- !u!1 &581728955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8147758109402939183, guid: d391c520ab0405d48bda12573577390f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1235022415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &648649521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -900,6 +913,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6663046553765681002, guid: d391c520ab0405d48bda12573577390f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663046553765681002, guid: d391c520ab0405d48bda12573577390f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663046553765681002, guid: d391c520ab0405d48bda12573577390f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d391c520ab0405d48bda12573577390f, type: 3}
 --- !u!1001 &1266370581
@@ -1178,6 +1206,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ec6b32e47477574a9212cd348136a64, type: 3}
+--- !u!1 &1892550971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8147758109402939183, guid: 63076596a42d91a4eafc9665fc0dd7c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 528723361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1917267695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1259,6 +1293,7 @@ GameObject:
   - component: {fileID: 1926822731}
   - component: {fileID: 1926822733}
   - component: {fileID: 1926822730}
+  - component: {fileID: 1926822734}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -1307,7 +1342,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 15.047482
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1331,7 +1366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926822729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -12.55}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1359,6 +1394,24 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &1926822734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926822729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32a72dda569c254ea960b75a6edf43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  P1: {fileID: 1892550971}
+  P2: {fileID: 581728955}
+  moyenneMax: 17
+  moyenneMin: -17
+  distancCam: -5
+  oui: 10
 --- !u!1001 &2103130722
 PrefabInstance:
   m_ObjectHideFlags: 0
