@@ -38,7 +38,7 @@ public class LevelGenerator : MonoBehaviour
             hardPartsPos.Add(Random.Range(0, levelLenght));
         }
 
-        for (int i = 0; i < levelLenght; i++)
+        for (int i = 0; i <= levelLenght; i++)
         {
             if (i == 0)
             {
@@ -58,7 +58,7 @@ public class LevelGenerator : MonoBehaviour
 
                 nextPart = nextPart.transform.Find("NextPart").transform;
             }
-            else if (i == levelLenght - 1)
+            else if (i == levelLenght)
             {
                 int partChoice = Random.Range(0, endingParts.Length);
                 nextPart = Instantiate(endingParts[partChoice], nextPart).transform.Find("NextPart").transform;

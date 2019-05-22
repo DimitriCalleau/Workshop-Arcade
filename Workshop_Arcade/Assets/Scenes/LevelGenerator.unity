@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32a72dda569c254ea960b75a6edf43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hauteurMax: 0
-  hauteurMin: 0
+  hauteurMax: 17
+  hauteurMin: -17
   distancCam: 0
   trucpourlelerpjsaispascequecest: 0
 --- !u!1001 &566821085826642574
