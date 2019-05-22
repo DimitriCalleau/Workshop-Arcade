@@ -28,7 +28,6 @@ public class basicBullet : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             Destroy(this.gameObject);
-            Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Ground")
         {

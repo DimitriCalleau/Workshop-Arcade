@@ -52,7 +52,7 @@ public class Character_Controller_2Player : MonoBehaviour
         //Inputs
         jump = Input.GetButtonDown("Jump2");
         horizontal = Input.GetAxis("Horizontal2");
-        isShooting = Input.GetKeyDown(KeyCode.Alpha0);
+        isShooting = Input.GetKeyDown(KeyCode.E);
 
         //DroiteGauche
         if(horizontal > 0)
