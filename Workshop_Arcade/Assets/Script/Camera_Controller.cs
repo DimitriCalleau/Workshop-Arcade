@@ -13,7 +13,7 @@ public class Camera_Controller : MonoBehaviour
     private Vector3 vecteurMoyenne;
     private Vector3 positionP1y;
     private Vector3 positionP2y;
-    public int distancCam;
+    public int distanceCam = -2;
     private float trucpourlelerpjsaispascequecest = 1;
 
     // Start is called before the first frame update
@@ -26,16 +26,16 @@ public class Camera_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        positionP1y = new Vector3(0, P1.transform.position.y, distancCam);
-        positionP2y = new Vector3(0, P2.transform.position.y, distancCam);
+        positionP1y = new Vector3(0, P1.transform.position.y, distanceCam);
+        positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
 
         moyenne = (P1.transform.position.y + P2.transform.position.y) / 2;
 
-        vecteurMoyenne = new Vector3(0, moyenne, distancCam);
+        vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
 
         if (moyenne < hauteurMax && moyenne > hauteurMin)
         {
-            gameObject.transform.position = new Vector3(0, moyenne, distancCam);
+            gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
         }
         else
         {
