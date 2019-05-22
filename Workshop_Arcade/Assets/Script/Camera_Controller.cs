@@ -6,9 +6,9 @@ public class Camera_Controller : MonoBehaviour
 {
     private GameObject P1;
     private GameObject P2;
-    private float moyenne;
-    public float hauteurMax;
-    public float hauteurMin;
+    private float moyenne = -5;
+    public float hauteurMax = 17;
+    public float hauteurMin = -17;
     private Vector3 vecteurab;
     private Vector3 vecteurMoyenne;
     private Vector3 positionP1y;
@@ -21,9 +21,6 @@ public class Camera_Controller : MonoBehaviour
     {
         P1 = GameObject.FindGameObjectsWithTag("Player")[0];
         P2 = GameObject.FindGameObjectsWithTag("Player")[1];
-        distancCam = -5;
-        hauteurMax = 17;
-        hauteurMin = -17;
     }
 
     // Update is called once per frame
