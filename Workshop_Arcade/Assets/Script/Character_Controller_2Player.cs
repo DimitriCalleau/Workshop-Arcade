@@ -41,6 +41,8 @@ public class Character_Controller_2Player : MonoBehaviour
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
                 nbJump += 1;
+                AkSoundEngine.PostEvent("Jump", this.gameObject);
+                Debug.Log("Jump2");
             }
         }
 
