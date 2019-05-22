@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class TriggerAmbientMusic : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D Shop)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        AkSoundEngine.PostEvent("shop_Ambient", this.gameObject);
+        Debug.Log("Trigger");
     }
 }
