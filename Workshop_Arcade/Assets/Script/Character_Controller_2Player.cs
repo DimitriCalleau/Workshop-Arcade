@@ -24,25 +24,22 @@ public class Character_Controller_2Player : MonoBehaviour
     void Start()
     {
         isGrounded = false;
-        
     }
-
 
     private void FixedUpdate()
     {
         //Jump
-        if (nbJump >= 1)
-        {
-            nbJump = 0;
-        }
         if (jump == true)
         {
             if (isGrounded == true)
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
-                nbJump += 1;
                 AkSoundEngine.PostEvent("Jump", this.gameObject);
-                Debug.Log("Jump2");
+            }
+            if (isGrounded == false)
+            {
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
             }
         }
 
@@ -54,7 +51,6 @@ public class Character_Controller_2Player : MonoBehaviour
         //Inputs
         jump = Input.GetButtonDown("Jump2");
         horizontal = Input.GetAxis("Horizontal2");
-        isShooting = Input.GetKeyDown(KeyCode.Alpha0);
 
         //DroiteGauche
         if(horizontal > 0)
@@ -68,24 +64,12 @@ public class Character_Controller_2Player : MonoBehaviour
         if (horizontal != 0)
         {
             rigidbody.velocity = new Vector2(speed * horizontal, rigidbody.velocity.y);
-
         }
 
         //vitesse descente
         if (rigidbody.velocity.y <= ySpeed)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
-            Debug.Log("STOPPP!");
-        }
-
-        //Tir de Base
-        if(isGrounded == false)
-        {
-            if (isShooting == true)
-            {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
-            }
         }
     }
 
