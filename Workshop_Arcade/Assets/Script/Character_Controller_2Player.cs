@@ -30,10 +30,20 @@ public class Character_Controller_2Player : MonoBehaviour
         //Jump
         if (jump == true)
         {
-            if (isGrounded == true)
+            if (nbJump == 0)
             {
-                rigidbody.AddForce(new Vector2(0f, jumpForce));
-                nbJump = 1;
+                if (isGrounded == true)
+                {
+                    rigidbody.AddForce(new Vector2(0f, jumpForce));
+                    nbJump = 1;
+
+
+                }
+                if (isGrounded == false)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                }
             }
         }
     }
@@ -65,23 +75,6 @@ public class Character_Controller_2Player : MonoBehaviour
         if (rigidbody.velocity.y <= ySpeed)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
-        }
-
-        //Tir de Base
-        if(isGrounded == false)
-        {
-            if(nbJump == 0)
-            {
-                if (jump == true)
-                {
-                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
-                }
-            }
-        }
-        else
-        {
-            nbJump = 0;
         }
     }
 
