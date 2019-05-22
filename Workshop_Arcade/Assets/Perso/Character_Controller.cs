@@ -28,18 +28,18 @@ public class Character_Controller : MonoBehaviour
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
         //Jump
-        if (jump == true)
-        {
-            if(isGrounded == true)
-            {
-                Rigidbody.AddForce(new Vector2(0f, jumpForce*Time.deltaTime));
-                nbJump += 1;
-            }               
-        }
         if (nbJump >= 1)
         {
             isGrounded = false;
             nbJump = 0;
+        }
+        if (jump == true)
+        {
+            if(isGrounded == true)
+            {
+                Rigidbody.AddForce(new Vector2(0f, jumpForce));
+                nbJump += 1;
+            }               
         }
         //DroiteGauche
         if(horizontal > 0)
@@ -48,18 +48,25 @@ public class Character_Controller : MonoBehaviour
         }
         if (horizontal < 0)
         {
-            Vector3 bignou2 = new Vector2(-speed*Time.deltaTime,0);
+            GetComponent<SpriteRenderer>().flipX = true;
         }
         if (horizontal != 0 && Rigidbody.velocity.magnitude <= speed)
         {
-            Rigidbody.velocity = new Vector2(speed * horizontal * Time.deltaTime, Rigidbody.velocity.y);
+            Rigidbody.velocity = new Vector2(speed * horizontal, Rigidbody.velocity.y);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Ground"))
         {
             isGrounded = true;
         }
     }
+    /* private void OnCollisionExit(Collision collision)
+     {
+         if (collision.gameObject.tag.Equals("Ground"))
+         {
+          /*isGrounded = false;
+         }
+     }*/
 }
