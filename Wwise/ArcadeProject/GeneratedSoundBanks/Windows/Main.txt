@@ -1,8 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	483337048	glue_trap			\Default Work Unit\SoundFX\world\glue_trap	
+	674522502	Land			\Default Work Unit\SoundFX\char\Land	
 	834167012	shop_Ambient			\Default Work Unit\ambiant\shop_Ambient	
-	2934094015	Char_Hit			\Default Work Unit\SoundFX\Char_Hit	
-	3070183186	Char_Die			\Default Work Unit\SoundFX\Char_Die	
-	3833651337	Jump			\Default Work Unit\SoundFX\Jump	
+	1456456759	block_break_ruby			\Default Work Unit\SoundFX\world\block_break_ruby	
+	1813586822	spikes_trap			\Default Work Unit\SoundFX\world\spikes_trap	
+	2282846814	Enm_Die_crush			\Default Work Unit\SoundFX\enm\Enm_Die_crush	
+	2845900908	principal_Ambient			\Default Work Unit\ambiant\principal_Ambient	
+	3038207054	Shoot			\Default Work Unit\SoundFX\char\Shoot	
+	3070183186	Char_Die			\Default Work Unit\SoundFX\char\Char_Die	
+	3339248991	block_break_shot			\Default Work Unit\SoundFX\world\block_break_shot	
+	3825894009	Enm_Die_Shot			\Default Work Unit\SoundFX\enm\Enm_Die_Shot	
+	3833651337	Jump			\Default Work Unit\SoundFX\char\Jump	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	179287486	pet	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\pet_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\pet		165952

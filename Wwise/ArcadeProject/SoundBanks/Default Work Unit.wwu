@@ -5,10 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{F3AAD6F7-B5F0-4D0D-8488-9DB3359F3401}">
 					<ObjectInclusionList>
+						<ObjectRef Name="principal_Ambient" ID="{DF97314C-2B93-4711-9816-16AE4ADF6041}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="block_break_ruby" ID="{4F3FCEA2-B22D-47D0-A6C2-8C704AF6088E}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shoot" ID="{FF5EC5ED-9EC6-482D-91DD-7E157D59A4F2}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="glue_trap" ID="{72716276-5224-483B-8AC4-0889F58BD40C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enm_Die_Shot" ID="{2EE66467-7875-49F4-A839-0DF8846DD6BC}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="spikes_trap" ID="{E5D8ADF9-12E4-4A29-BCBE-D05F0E896E65}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="block_break_shot" ID="{5DE4A70E-C635-4B26-9B70-C23476541683}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="shop_Ambient" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Char_Die" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Char_Hit" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Land" ID="{465707E1-38C9-4D7C-8A62-84FB9E879FD5}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enm_Die_crush" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

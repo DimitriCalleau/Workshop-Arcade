@@ -13,10 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLOCK_BREAK_RUBY = 1456456759U;
+        static const AkUniqueID BLOCK_BREAK_SHOT = 3339248991U;
         static const AkUniqueID CHAR_DIE = 3070183186U;
-        static const AkUniqueID CHAR_HIT = 2934094015U;
+        static const AkUniqueID ENM_DIE_CRUSH = 2282846814U;
+        static const AkUniqueID ENM_DIE_SHOT = 3825894009U;
+        static const AkUniqueID GLUE_TRAP = 483337048U;
         static const AkUniqueID JUMP = 3833651337U;
+        static const AkUniqueID LAND = 674522502U;
+        static const AkUniqueID PRINCIPAL_AMBIENT = 2845900908U;
+        static const AkUniqueID SHOOT = 3038207054U;
         static const AkUniqueID SHOP_AMBIENT = 834167012U;
+        static const AkUniqueID SPIKES_TRAP = 1813586822U;
     } // namespace EVENTS
 
     namespace BANKS
