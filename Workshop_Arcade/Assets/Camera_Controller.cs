@@ -49,6 +49,5 @@ public class Camera_Controller : MonoBehaviour
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, oui);
             }
         }
-        Debug.Log(moyenne);
     }
 }

@@ -15,7 +15,6 @@ public class Character_Controller_2Player : MonoBehaviour
     private float horizontal;
     public float ySpeed;
 
-    private bool isShooting;
     public GameObject basicBullet;
 
     public GameObject shooter;
@@ -23,36 +22,29 @@ public class Character_Controller_2Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isGrounded = false;
-        
+        isGrounded = false; 
     }
-
 
     private void FixedUpdate()
     {
         //Jump
-        if (nbJump >= 1)
-        {
-            nbJump = 0;
-        }
         if (jump == true)
         {
             if (isGrounded == true)
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
-                nbJump += 1;
+                nbJump = 1;
             }
         }
-
     }
 
     void Update()
     {
-        //Debug.Log(rigidbody.velocity.y);
+
+        Debug.Log(nbJump);
         //Inputs
         jump = Input.GetButtonDown("Jump2");
         horizontal = Input.GetAxis("Horizontal2");
-        isShooting = Input.GetKeyDown(KeyCode.E);
 
         //DroiteGauche
         if(horizontal > 0)
@@ -73,17 +65,23 @@ public class Character_Controller_2Player : MonoBehaviour
         if (rigidbody.velocity.y <= ySpeed)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
-            Debug.Log("STOPPP!");
         }
 
         //Tir de Base
         if(isGrounded == false)
         {
-            if (isShooting == true)
+            if(nbJump == 0)
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                if (jump == true)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                }
             }
+        }
+        else
+        {
+            nbJump = 0;
         }
     }
 

@@ -1378,6 +1378,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   P1: {fileID: 1892550971}
   P2: {fileID: 581728955}
+  moyenneMax: 17
+  moyenneMin: -17
+  distancCam: -5
+  oui: 10
 --- !u!1001 &2103130722
 PrefabInstance:
   m_ObjectHideFlags: 0
