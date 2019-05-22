@@ -22,4 +22,9 @@ public class basicBullet : MonoBehaviour
     {
         rigidbody2.AddForce(new Vector2(rigidbody2.velocity.x, -bulletSpeed));
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(this.gameObject);
+    }
 }

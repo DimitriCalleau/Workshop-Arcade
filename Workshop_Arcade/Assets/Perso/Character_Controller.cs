@@ -6,6 +6,7 @@ public class Character_Controller : MonoBehaviour
 {
     public float jumpForce;
     public int speed;
+    public int amortie;
 
     public bool jump;
     public bool isGrounded;
@@ -17,6 +18,7 @@ public class Character_Controller : MonoBehaviour
     private bool isShooting;
     public GameObject basicBullet;
 
+    public GameObject shooter;
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,6 @@ public class Character_Controller : MonoBehaviour
         //Jump
         if (nbJump >= 1)
         {
-            isGrounded = false;
             nbJump = 0;
         }
         if (jump == true)
@@ -80,7 +81,8 @@ public class Character_Controller : MonoBehaviour
         {
             if (isShooting == true)
             {
-                Instantiate(basicBullet, gameObject.transform.position, gameObject.transform.rotation);
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
             }
         }
     }
@@ -91,5 +93,9 @@ public class Character_Controller : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 }
