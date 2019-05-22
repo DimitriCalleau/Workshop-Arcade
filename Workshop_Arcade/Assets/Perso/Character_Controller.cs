@@ -21,12 +21,9 @@ public class Character_Controller : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void FixedUpdate()
     {
-        //Inputs
-        jump = Input.GetButtonDown("Jump");
-        horizontal = Input.GetAxis("Horizontal");
         //Jump
         if (nbJump >= 1)
         {
@@ -35,12 +32,20 @@ public class Character_Controller : MonoBehaviour
         }
         if (jump == true)
         {
-            if(isGrounded == true)
+            if (isGrounded == true)
             {
                 Rigidbody.AddForce(new Vector2(0f, jumpForce));
                 nbJump += 1;
-            }               
+            }
         }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        //Inputs
+        jump = Input.GetButtonDown("Jump");
+        horizontal = Input.GetAxis("Horizontal");
+
         //DroiteGauche
         if(horizontal > 0)
         {
