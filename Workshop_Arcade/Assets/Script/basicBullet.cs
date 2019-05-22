@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class basicBullet : MonoBehaviour
 {
-    private int dmg;
-    private string name;
 
     public int bulletSpeed;
 
     public Rigidbody2D rigidbody2;
     // Start is called before the first frame update
-    void Start()
-    {
-        name = "basicBullet";
-        dmg = 35;
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -28,7 +22,6 @@ public class basicBullet : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             Destroy(this.gameObject);
-            Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Ground")
         {

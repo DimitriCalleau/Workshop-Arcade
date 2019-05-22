@@ -44,15 +44,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67657706f3149a4ea07b8496333c505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficulty: 0
   levelLenght: 10
+  spawnPoint: {fileID: 0}
+  player1: {fileID: 8147758109402939183, guid: d391c520ab0405d48bda12573577390f, type: 3}
+  player2: {fileID: 8147758109402939183, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
   nextPart: {fileID: 5630773722421965838}
   startingParts:
   - {fileID: 5837206209171489495, guid: dba8ce94a44212642af30e4392257081, type: 3}
-  levelParts:
+  levelPartsEasy:
   - {fileID: 5837206209171489495, guid: 82827f6cb596ce141adff78108684495, type: 3}
-  - {fileID: 5837206209171489495, guid: 101c1c492861c584190602bf987bad4f, type: 3}
-  - {fileID: 5837206209171489495, guid: f03f74971005e7e48adda1db580c1f0e, type: 3}
+  - {fileID: 5837206209171489495, guid: 83a437af75b404e4aa0229931fd9120d, type: 3}
+  - {fileID: 5837206209171489495, guid: d27232da681e2934e88f5bab560b0a19, type: 3}
+  - {fileID: 5837206209171489495, guid: 29144c151d75e6f48b5da68fbb972e99, type: 3}
+  levelPartsMedium:
+  - {fileID: 5837206209171489495, guid: fda3025a1a10141419bc729e1ea1c3f0, type: 3}
+  - {fileID: 5837206209171489495, guid: 5e0f9ab8004808b4891e00217466804e, type: 3}
+  - {fileID: 5837206209171489495, guid: e0d8745ec23f1a144b271ce5d5b1696e, type: 3}
+  levelPartsHard:
+  - {fileID: 5837206209171489495, guid: 9b770007651a30c43832d4c284f8cc66, type: 3}
+  - {fileID: 5837206209171489495, guid: 94ca6de90b071174cbb6eb12155d3f06, type: 3}
   endingParts:
   - {fileID: 5837206209171489495, guid: d0d6958eeb232c447a6a088f86f96b2b, type: 3}
 --- !u!1 &8045029582099791139
