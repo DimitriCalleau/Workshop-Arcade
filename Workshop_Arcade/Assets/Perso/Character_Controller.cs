@@ -12,8 +12,9 @@ public class Character_Controller : MonoBehaviour
 
     private int nbJump = 0;
     private float horizontal;
+    public float ySpeed;
 
-    public Rigidbody2D Rigidbody;
+    public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,14 +35,16 @@ public class Character_Controller : MonoBehaviour
         {
             if (isGrounded == true)
             {
-                Rigidbody.AddForce(new Vector2(0f, jumpForce));
+                rigidbody.AddForce(new Vector2(0f, jumpForce));
                 nbJump += 1;
             }
         }
+
     }
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(rigidbody.velocity.y);
         //Inputs
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
@@ -58,7 +61,13 @@ public class Character_Controller : MonoBehaviour
 
         if (horizontal != 0)
         {
-            Rigidbody.velocity = new Vector2(speed * horizontal, Rigidbody.velocity.y);
+            rigidbody.velocity = new Vector2(speed * horizontal, rigidbody.velocity.y);
+
+        }
+        if (rigidbody.velocity.y <= ySpeed)
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
+            Debug.Log("STOPPP!");
         }
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -68,11 +77,4 @@ public class Character_Controller : MonoBehaviour
             isGrounded = true;
         }
     }
-    /* private void OnCollisionExit(Collision collision)
-     {
-         if (collision.gameObject.tag.Equals("Ground"))
-         {
-          /*isGrounded = false;
-         }
-     }*/
 }
