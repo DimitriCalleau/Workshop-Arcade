@@ -15,6 +15,7 @@ public class Character_Controller : MonoBehaviour
     public float ySpeed;
 
     private bool isShooting;
+    public GameObject basicBullet;
 
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
@@ -50,6 +51,7 @@ public class Character_Controller : MonoBehaviour
         //Inputs
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
+        isShooting = Input.GetKeyDown(KeyCode.A);
 
         //DroiteGauche
         if(horizontal > 0)
@@ -74,9 +76,12 @@ public class Character_Controller : MonoBehaviour
         }
 
         //Tir de Base
-        if(isShooting == true)
+        if(isGrounded == false)
         {
-
+            if (isShooting == true)
+            {
+                Instantiate(basicBullet, gameObject.transform.position, gameObject.transform.rotation);
+            }
         }
     }
 
