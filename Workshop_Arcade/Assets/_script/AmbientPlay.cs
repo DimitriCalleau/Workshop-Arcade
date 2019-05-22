@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmbientPlay : MonoBehaviour
 { 
-    void OnCollisionEnter2D(Collision2D Shop)
+    void OnTriggerEnter2D(Collision2D Shop)
     {
         if (Shop.gameObject.name == "ShopTrigger")
         {
