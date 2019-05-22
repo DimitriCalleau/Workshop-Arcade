@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	297974776	shop_Ambiant			\Default Work Unit\ambiant\shop_Ambiant	
+	834167012	shop_Ambient			\Default Work Unit\ambiant\shop_Ambient	
 	2934094015	Char_Hit			\Default Work Unit\SoundFX\Char_Hit	
 	3070183186	Char_Die			\Default Work Unit\SoundFX\Char_Die	
 	3833651337	Jump			\Default Work Unit\SoundFX\Jump	

@@ -16,7 +16,7 @@ namespace AK
         static const AkUniqueID CHAR_DIE = 3070183186U;
         static const AkUniqueID CHAR_HIT = 2934094015U;
         static const AkUniqueID JUMP = 3833651337U;
-        static const AkUniqueID SHOP_AMBIANT = 297974776U;
+        static const AkUniqueID SHOP_AMBIENT = 834167012U;
     } // namespace EVENTS
 
     namespace BANKS

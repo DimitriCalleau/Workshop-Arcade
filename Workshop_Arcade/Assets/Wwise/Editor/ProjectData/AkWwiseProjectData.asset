@@ -29,8 +29,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184233
-    m_lastTimePsrt1: -655589617
+    m_lastTimePart2: -1999184231
+    m_lastTimePsrt1: 19282254
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,8 +49,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184232
-    m_lastTimePsrt1: 189656909
+    m_lastTimePart2: -1999184231
+    m_lastTimePsrt1: 19262309
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -97,15 +97,15 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
     - Guid: a63379f8dc143a4bb91d83b559db8687
-      ID: 297974776
-      Name: shop_Ambiant
-      Path: Default Work Unit\ambiant\shop_Ambiant
+      ID: 834167012
+      Name: shop_Ambient
+      Path: Default Work Unit\ambiant\shop_Ambient
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: ambiant
         ObjectType: 4
-      - ElementName: shop_Ambiant
+      - ElementName: shop_Ambient
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
