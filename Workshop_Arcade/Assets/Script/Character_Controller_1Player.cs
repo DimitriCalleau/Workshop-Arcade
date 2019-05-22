@@ -22,11 +22,10 @@ public class Character_Controller_1Player : MonoBehaviour
     private GameObject P2;
     public Rigidbody2D rigidbody;
 
-    //Vie
+    //Vie et Score
     public int score = 0;
     public int health = 4;
 
-    // Start is called before the first frame update
     void Start()
     {
         isGrounded = false;
@@ -35,7 +34,7 @@ public class Character_Controller_1Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Jump
+        //Jump et Tire
         if (jump == true)
         {
             if (isGrounded == true)
@@ -79,7 +78,6 @@ public class Character_Controller_1Player : MonoBehaviour
         }
 
         //mort
-
         if (health <= 0)
         {
             gameObject.transform.position = P2.transform.position;

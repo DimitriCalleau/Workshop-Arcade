@@ -20,7 +20,8 @@ public class Character_Controller_2Player : MonoBehaviour
     public GameObject shooter;
     private GameObject P1;
     public Rigidbody2D rigidbody;
-    // Start is called before the first frame update
+
+    //Vie et Score
     public int score = 0;
     public int health = 4;
 
@@ -32,7 +33,7 @@ public class Character_Controller_2Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Jump
+        //Jump et Tire
         if (jump == true)
         {
             if (isGrounded == true)
