@@ -46,7 +46,7 @@ public class Character_Controller : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rigidbody.velocity.y);
+        //Debug.Log(rigidbody.velocity.y);
         //Inputs
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
@@ -54,11 +54,11 @@ public class Character_Controller : MonoBehaviour
         //DroiteGauche
         if(horizontal > 0)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            GetComponent<SpriteRenderer>().flipX = true;
         }
         if (horizontal < 0)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            GetComponent<SpriteRenderer>().flipX = false;
         }
         if (horizontal != 0)
         {
