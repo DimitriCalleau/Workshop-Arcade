@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Character_Controller_1Player : MonoBehaviour
 {
+    //Movement et Tirs
     public float jumpForce;
     public int speed;
     public int amortie;
@@ -19,11 +20,16 @@ public class Character_Controller_1Player : MonoBehaviour
 
     public GameObject shooter;
     public Rigidbody2D rigidbody;
+
+    //Vie
+
+    public int Health;
+
     // Start is called before the first frame update
     void Start()
     {
         isGrounded = false;
-        
+        Health = 4;
     }
 
     private void FixedUpdate()
@@ -80,10 +86,21 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             isGrounded = true;
         }
+
+        if (Health <= 0)
+        {
+            //Faire réap? mettre le score a ?juste detruire?
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Health -= 1;
     }
 }
