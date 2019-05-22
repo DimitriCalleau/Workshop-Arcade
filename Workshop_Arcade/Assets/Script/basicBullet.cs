@@ -25,12 +25,12 @@ public class basicBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag != "Enemy")
+        if(other.gameObject.tag == "Enemy")
         {
             Destroy(this.gameObject);
             Destroy(other.gameObject);
         }
-        if (other.gameObject.tag != "Ground")
+        if (other.gameObject.tag == "Ground")
         {
             Destroy(this.gameObject);
         }
