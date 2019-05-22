@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerAmbientShop : MonoBehaviour
+public class AmbientShop : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D Shop)
+    public void Start()
     {
         AkSoundEngine.PostEvent("shop_Ambient", this.gameObject);
-        Debug.Log("TriggerShop");
     }
 }

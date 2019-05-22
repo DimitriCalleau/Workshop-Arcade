@@ -14,7 +14,7 @@ public class Character_Controller_1Player : MonoBehaviour
     private float horizontal;
     public float ySpeed;
 
-
+    private bool isShooting;
     public GameObject basicBullet;
 
     public GameObject shooter;
@@ -23,17 +23,18 @@ public class Character_Controller_1Player : MonoBehaviour
     void Start()
     {
         isGrounded = false;
+        
     }
 
     private void FixedUpdate()
     {
         //Jump
-
         if (jump == true)
         {
             if (isGrounded == true)
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
+                AkSoundEngine.PostEvent("Jump", this.gameObject);
             }
             if (isGrounded == false)
             {
@@ -46,6 +47,7 @@ public class Character_Controller_1Player : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log(rigidbody.velocity.y);
         //Inputs
         jump = Input.GetButtonDown("Jump");
         horizontal = Input.GetAxis("Horizontal");
