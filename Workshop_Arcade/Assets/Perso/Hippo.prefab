@@ -232,7 +232,7 @@ MonoBehaviour:
   speed: 15
   jump: 0
   isGrounded: 0
-  ySpeed: -20
+  ySpeed: -200
   rigidbody: {fileID: 941047265}
 --- !u!58 &6049122209304191661
 CircleCollider2D:

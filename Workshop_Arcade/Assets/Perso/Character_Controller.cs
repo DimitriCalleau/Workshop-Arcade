@@ -14,6 +14,8 @@ public class Character_Controller : MonoBehaviour
     private float horizontal;
     public float ySpeed;
 
+    private bool isShooting;
+
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     void Start()
@@ -41,7 +43,7 @@ public class Character_Controller : MonoBehaviour
         }
 
     }
-    // Update is called once per frame
+
     void Update()
     {
         Debug.Log(rigidbody.velocity.y);
@@ -58,18 +60,26 @@ public class Character_Controller : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().flipX = true;
         }
-
         if (horizontal != 0)
         {
             rigidbody.velocity = new Vector2(speed * horizontal, rigidbody.velocity.y);
 
         }
+
+        //vitesse descente
         if (rigidbody.velocity.y <= ySpeed)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
             Debug.Log("STOPPP!");
         }
+
+        //Tir de Base
+        if(isShooting == true)
+        {
+
+        }
     }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Ground"))
