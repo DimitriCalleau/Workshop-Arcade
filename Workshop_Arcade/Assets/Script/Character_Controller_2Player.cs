@@ -11,7 +11,6 @@ public class Character_Controller_2Player : MonoBehaviour
     public bool jump;
     public bool isGrounded;
 
-    private int nbJump = 0;
     private float horizontal;
     public float ySpeed;
 
@@ -30,28 +29,20 @@ public class Character_Controller_2Player : MonoBehaviour
         //Jump
         if (jump == true)
         {
-            if (nbJump == 0)
+            if (isGrounded == true)
             {
-                if (isGrounded == true)
-                {
-                    rigidbody.AddForce(new Vector2(0f, jumpForce));
-                    nbJump = 1;
-
-
-                }
-                if (isGrounded == false)
-                {
-                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
-                }
+                rigidbody.AddForce(new Vector2(0f, jumpForce));
+            }
+            if (isGrounded == false)
+            {
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
             }
         }
     }
 
     void Update()
     {
-
-        Debug.Log(nbJump);
         //Inputs
         jump = Input.GetButtonDown("Jump2");
         horizontal = Input.GetAxis("Horizontal2");
