@@ -18,6 +18,7 @@ public class Character_Controller_2Player : MonoBehaviour
     public GameObject basicBullet;
 
     public GameObject shooter;
+    public GameObject P1;
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     public int score = 0;
@@ -76,8 +77,6 @@ public class Character_Controller_2Player : MonoBehaviour
 
         if (Health <= 0)
         {
-            //Faire réap? mettre le score a ?juste detruire?
-            Destroy(gameObject);
         }
     }
 

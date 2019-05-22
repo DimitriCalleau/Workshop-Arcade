@@ -19,6 +19,7 @@ public class Character_Controller_1Player : MonoBehaviour
     public GameObject basicBullet;
 
     public GameObject shooter;
+    public GameObject P2;
     public Rigidbody2D rigidbody;
 
     //Vie
@@ -80,8 +81,9 @@ public class Character_Controller_1Player : MonoBehaviour
 
         if (Health <= 0)
         {
-            //Faire réap? mettre le score a ?juste detruire?
-            Destroy(gameObject);
+            gameObject.transform.position = P2.transform.position;
+            Health = 4;
+            score -= 50;
         }
     }
 
@@ -104,7 +106,6 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             Health -= 1;
             Debug.Log("ta grosse daronee");
-
         }
     }
 }
