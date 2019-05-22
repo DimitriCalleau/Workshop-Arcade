@@ -6,7 +6,7 @@ public class TriggerBreakTileRuby : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D BreakTileRuby)
     {
-        AkSoundEngine.PostEvent("spikes_trap", this.gameObject);
+        AkSoundEngine.PostEvent("block_break_ruby", this.gameObject);
         Debug.Log("TriggerRubyTile");
     }
 }
