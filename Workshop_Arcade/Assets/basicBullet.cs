@@ -23,8 +23,11 @@ public class basicBullet : MonoBehaviour
         rigidbody2.AddForce(new Vector2(rigidbody2.velocity.x, -bulletSpeed));
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(this.gameObject);
-    }
+        if(other.gameObject.tag != "Player")
+        {
+            Destroy(this.gameObject);
+        }
+    }*/
 }
