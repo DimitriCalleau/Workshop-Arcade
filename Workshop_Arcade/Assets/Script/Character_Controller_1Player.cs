@@ -24,7 +24,7 @@ public class Character_Controller_1Player : MonoBehaviour
 
     //Vie
     public int score = 0;
-    private int Health = 4;
+    private int health = 4;
 
     // Start is called before the first frame update
     void Start()
@@ -80,10 +80,10 @@ public class Character_Controller_1Player : MonoBehaviour
 
         //mort
 
-        if (Health <= 0)
+        if (health <= 0)
         {
             gameObject.transform.position = P2.transform.position;
-            Health = 4;
+            health = 4;
             score -= 50;
         }
     }
@@ -105,7 +105,7 @@ public class Character_Controller_1Player : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
-            Health -= 1;
+            health -= 1;
             Debug.Log("ta grosse daronee");
         }
     }

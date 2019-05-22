@@ -22,7 +22,7 @@ public class Character_Controller_2Player : MonoBehaviour
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     public int score = 0;
-    private int Health = 4;
+    private int health = 4;
 
     void Start()
     {
@@ -76,10 +76,10 @@ public class Character_Controller_2Player : MonoBehaviour
 
         //mort
 
-        if (Health <= 0)
+        if (health <= 0)
         {
             gameObject.transform.position = P1.transform.position;
-            Health = 4;
+            health = 4;
             score -= 50;
         }
     }
@@ -102,7 +102,7 @@ public class Character_Controller_2Player : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log("ta grosse daronee");
-            Health -= 1;
+            health -= 1;
         }
     }
 }
