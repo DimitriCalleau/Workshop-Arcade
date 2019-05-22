@@ -148,10 +148,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 1500
   speed: 15
-  amortie: 2
+  amortie: 10
   jump: 0
   isGrounded: 0
-  ySpeed: 200
+  ySpeed: -200
   basicBullet: {fileID: 9186044996497062035, guid: fdb05d1f2e74e63439ff0dee27c6be14,
     type: 3}
   shooter: {fileID: 1584688521}
