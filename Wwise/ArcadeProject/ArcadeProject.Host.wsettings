@@ -3,6 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{20B7A402-099F-4CCB-96F5-07F15572DC26}">
 			<PropertyList>
+				<Property Name="Event Action List\{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D1E372CD-F239-4A4F-9270-EAED79EEF633}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F87933A6-14DC-4B3A-B91D-83B559DB8687}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -13,6 +17,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="rAUCHp4N0E6l8Vh229H51A=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="99aq8/C1DU2EiJ2zNZ80AQ=="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>

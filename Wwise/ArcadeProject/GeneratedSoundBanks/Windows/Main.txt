@@ -1,3 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4258653052	Test_Event			\Default Work Unit\Test\Test_Event	
+	297974776	shop_Ambiant			\Default Work Unit\ambiant\shop_Ambiant	
+	2934094015	Char_Hit			\Default Work Unit\SoundFX\Char_Hit	
+	3070183186	Char_Die			\Default Work Unit\SoundFX\Char_Die	
+	3833651337	Jump			\Default Work Unit\SoundFX\Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	179287486	pet	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\pet_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\pet		165952
 

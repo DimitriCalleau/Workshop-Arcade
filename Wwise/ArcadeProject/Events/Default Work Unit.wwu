@@ -3,9 +3,29 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Test" ID="{6A3D6B1E-2C7B-4605-8F32-FE994F2F89E1}" ShortID="761612813">
+				<Folder Name="ambiant" ID="{A588B1E4-63A7-4F14-8A68-070B65A2C607}" ShortID="436386328">
 					<ChildrenList>
-						<Event Name="Test_Event" ID="{0079BA7F-A660-4825-A1DF-379FAD5B7E14}"/>
+						<Event Name="shop_Ambiant" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}">
+							<ChildrenList>
+								<Action Name="" ID="{E695269D-BF1D-471B-BBBF-498A0E610739}" ShortID="980826855">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pet" ID="{7397E51C-496C-4D39-932B-6A99E78CB540}" WorkUnitID="{0562C7FC-7667-4308-8DFC-05B07C314181}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SoundFX" ID="{EC57E1EE-65B3-415D-BC0D-0DCB8D332EA6}" ShortID="141817205">
+					<ChildrenList>
+						<Event Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}"/>
+						<Event Name="Char_Hit" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}"/>
+						<Event Name="Char_Die" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

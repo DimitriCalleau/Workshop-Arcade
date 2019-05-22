@@ -21,8 +21,17 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Default Work Unit\Test\Test_Event" MaxAttenuation="0.000000"/>
+				<Event Id="3070183186" Name="Char_Die" ObjectPath="\Events\Default Work Unit\SoundFX\Char_Die" MaxAttenuation="0.000000"/>
+				<Event Id="2934094015" Name="Char_Hit" ObjectPath="\Events\Default Work Unit\SoundFX\Char_Hit" MaxAttenuation="0.000000"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\SoundFX\Jump" MaxAttenuation="0.000000"/>
+				<Event Id="297974776" Name="shop_Ambiant" ObjectPath="\Events\Default Work Unit\ambiant\shop_Ambiant"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="179287486" Language="SFX">
+					<ShortName>pet.wav</ShortName>
+					<Path>SFX\pet_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

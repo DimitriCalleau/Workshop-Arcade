@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{F3AAD6F7-B5F0-4D0D-8488-9DB3359F3401}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Test_Event" ID="{0079BA7F-A660-4825-A1DF-379FAD5B7E14}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="shop_Ambiant" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Die" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Hit" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

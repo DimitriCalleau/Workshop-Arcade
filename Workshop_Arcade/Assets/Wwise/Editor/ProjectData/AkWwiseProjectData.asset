@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - Guid: '{C200B5AC-F74B-4875-A2AB-192157C94FEA}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499322230
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849202834
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   autoPopulateEnabled: 1
   AuxBusWwu:
   - Guid: '{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499390483
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849152968
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184425
-    m_lastTimePsrt1: -413486645
+    m_lastTimePart2: -1999184233
+    m_lastTimePsrt1: -655589617
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,21 +49,63 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184425
-    m_lastTimePsrt1: -413517388
+    m_lastTimePart2: -1999184232
+    m_lastTimePsrt1: 189656909
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
-    - Guid: 7fba790060a62548a1df379fad5b7e14
-      ID: -36314244
-      Name: Test_Event
-      Path: Default Work Unit\Test\Test_Event
+    - Guid: 31ede6413066df4b8a9962fcb0173ce1
+      ID: -1224784110
+      Name: Char_Die
+      Path: Default Work Unit\SoundFX\Char_Die
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: SoundFX
         ObjectType: 4
-      - ElementName: Test_Event
+      - ElementName: Char_Die
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e39981013dda6d4f9a4ebe500b08ee1c
+      ID: -1360873281
+      Name: Char_Hit
+      Path: Default Work Unit\SoundFX\Char_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: Char_Hit
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: cd72e3d139f24f4a9270eaed79eef633
+      ID: -461315959
+      Name: Jump
+      Path: Default Work Unit\SoundFX\Jump
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: Jump
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a63379f8dc143a4bb91d83b559db8687
+      ID: 297974776
+      Name: shop_Ambiant
+      Path: Default Work Unit\ambiant\shop_Ambiant
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ambiant
+        ObjectType: 4
+      - ElementName: shop_Ambiant
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -72,7 +114,6 @@ MonoBehaviour:
   - /ArcadeProject
   - /ArcadeProject/Events
   - /ArcadeProject/Events/Default Work Unit
-  - /ArcadeProject/Events/Default Work Unit/Test
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
@@ -81,30 +122,30 @@ MonoBehaviour:
   preparePoolSize: 0
   RtpcWwu:
   - Guid: '{739D51E2-5C0E-4DB4-9CE6-B1F10258666A}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499409878
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849123052
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{4FA18C0D-4036-42AF-A283-3A8244C5ECDB}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499371793
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849182888
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   streamingPoolSize: 1024
   SwitchWwu:
   - Guid: '{D50A5FAC-5BD6-4E92-80B5-3384C0677F47}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499380503
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849192862
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{DA86A813-B2A3-432C-BB4D-3AAD2B76A2D0}'
-    m_lastTimePart2: -1999184426
-    m_lastTimePsrt1: -499490212
+    m_lastTimePart2: -1999184236
+    m_lastTimePsrt1: 849192862
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
