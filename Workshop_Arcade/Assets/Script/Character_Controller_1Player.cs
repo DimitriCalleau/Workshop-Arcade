@@ -24,7 +24,7 @@ public class Character_Controller_1Player : MonoBehaviour
 
     //Vie
     public int score = 0;
-    private int health = 4;
+    public int health = 4;
 
     // Start is called before the first frame update
     void Start()

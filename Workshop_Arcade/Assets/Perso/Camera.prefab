@@ -125,9 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32a72dda569c254ea960b75a6edf43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1: {fileID: 8147758109402939183, guid: d391c520ab0405d48bda12573577390f, type: 3}
-  P2: {fileID: 8147758109402939183, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
-  moyenneMax: 17
-  moyenneMin: -17
+  hauteurMax: 17
+  hauteurMin: -17
   distancCam: -5
-  oui: 10
+  trucpourlelerpjsaispascequecest: 1

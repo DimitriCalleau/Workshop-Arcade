@@ -22,7 +22,7 @@ public class Character_Controller_2Player : MonoBehaviour
     public Rigidbody2D rigidbody;
     // Start is called before the first frame update
     public int score = 0;
-    private int health = 4;
+    public int health = 4;
 
     void Start()
     {

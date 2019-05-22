@@ -14,7 +14,7 @@ public class Camera_Controller : MonoBehaviour
     private Vector3 positionP1y;
     private Vector3 positionP2y;
     public int distancCam;
-    public float trucpourlelerpjsaispascequecest;
+    private float trucpourlelerpjsaispascequecest = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class Camera_Controller : MonoBehaviour
 
         if (moyenne < hauteurMax && moyenne > hauteurMin)
         {
-            this.gameObject.transform.position = new Vector3(0, moyenne, distancCam);
+            gameObject.transform.position = new Vector3(0, moyenne, distancCam);
         }
         else
         {
