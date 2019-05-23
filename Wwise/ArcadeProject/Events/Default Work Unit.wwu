@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="ambiant" ID="{A588B1E4-63A7-4F14-8A68-070B65A2C607}" ShortID="436386328">
 					<ChildrenList>
-						<Event Name="shop_Ambient" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}">
+						<Event Name="GameAmbient" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}">
 							<ChildrenList>
 								<Action Name="" ID="{E695269D-BF1D-471B-BBBF-498A0E610739}" ShortID="980826855">
 									<PropertyList>
@@ -19,7 +19,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="principal_Ambient" ID="{DF97314C-2B93-4711-9816-16AE4ADF6041}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundFX" ID="{EC57E1EE-65B3-415D-BC0D-0DCB8D332EA6}" ShortID="141817205">

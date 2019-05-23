@@ -106,10 +106,10 @@ public class Character_Controller_1Player : MonoBehaviour
         //mort
         if (health <= 0)
         {
-            AkSoundEngine.PostEvent("Char_Die", this.gameObject);
             gameObject.transform.position = P2.transform.position;
             health = 4;
             score -= 50;
+            AkSoundEngine.PostEvent("Char_Die", this.gameObject);
         }
 
         //son jump

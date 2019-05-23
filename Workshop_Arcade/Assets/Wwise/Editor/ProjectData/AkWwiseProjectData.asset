@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - Guid: '{C200B5AC-F74B-4875-A2AB-192157C94FEA}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38697780
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767895650
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   autoPopulateEnabled: 1
   AuxBusWwu:
   - Guid: '{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38617773
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767831273
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184041
-    m_lastTimePsrt1: -1938772016
+    m_lastTimePart2: -1999184013
+    m_lastTimePsrt1: -1919924371
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,8 +49,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184041
-    m_lastTimePsrt1: -1938796669
+    m_lastTimePart2: -1999184013
+    m_lastTimePsrt1: -1919948905
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -82,6 +82,22 @@ MonoBehaviour:
       - ElementName: world
         ObjectType: 4
       - ElementName: block_break_shot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 70af3367aec74948b966b76df1b743b6
+      ID: -1224784110
+      Name: Char_Die
+      Path: Default Work Unit\SoundFX\char\Char_Die
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: char
+        ObjectType: 4
+      - ElementName: Char_Die
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -134,6 +150,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: a63379f8dc143a4bb91d83b559db8687
+      ID: 223926233
+      Name: GameAmbient
+      Path: Default Work Unit\ambiant\GameAmbient
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ambiant
+        ObjectType: 4
+      - ElementName: GameAmbient
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 7662717224523b488ac40889f58bd40c
       ID: 483337048
       Name: glue_trap
@@ -182,20 +212,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - Guid: 4c3197df932b1147981616ae4adf6041
-      ID: -1449066388
-      Name: principal_Ambient
-      Path: Default Work Unit\ambiant\principal_Ambient
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: ambiant
-        ObjectType: 4
-      - ElementName: principal_Ambient
-        ObjectType: 3
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - Guid: edc55effc69e2d4891dd7e157d59a4f2
       ID: -1256760242
       Name: Shoot
@@ -208,20 +224,6 @@ MonoBehaviour:
       - ElementName: char
         ObjectType: 4
       - ElementName: Shoot
-        ObjectType: 3
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - Guid: a63379f8dc143a4bb91d83b559db8687
-      ID: 834167012
-      Name: shop_Ambient
-      Path: Default Work Unit\ambiant\shop_Ambient
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: ambiant
-        ObjectType: 4
-      - ElementName: shop_Ambient
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -252,30 +254,30 @@ MonoBehaviour:
   preparePoolSize: 0
   RtpcWwu:
   - Guid: '{739D51E2-5C0E-4DB4-9CE6-B1F10258666A}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38577768
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767791252
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{4FA18C0D-4036-42AF-A283-3A8244C5ECDB}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38697780
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767880825
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   streamingPoolSize: 1024
   SwitchWwu:
   - Guid: '{D50A5FAC-5BD6-4E92-80B5-3384C0677F47}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38697780
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767885774
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{DA86A813-B2A3-432C-BB4D-3AAD2B76A2D0}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38697780
+    m_lastTimePart2: -1999184025
+    m_lastTimePsrt1: 1767890742
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
