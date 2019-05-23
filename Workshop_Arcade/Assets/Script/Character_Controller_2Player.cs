@@ -30,13 +30,13 @@ public class Character_Controller_2Player : MonoBehaviour
 
     // Munitions    
     public int munitions = 8;
-    public int munitionMax;
+    public int munitionsMax;
 
     void Start()
     {
         isGrounded = false;
         P1 = GameObject.FindGameObjectsWithTag("Player")[0];
-        munitionMax = 8;
+        munitionsMax = 8;
     }
 
     private void FixedUpdate()
@@ -65,9 +65,9 @@ public class Character_Controller_2Player : MonoBehaviour
         if(isGrounded == true)
         {
             munitions += 1;
-            if(munitions >= munitionMax)
+            if(munitions >= munitionsMax)
             {
-                munitions = munitionMax;
+                munitions = munitionsMax;
             }
         }
     }
