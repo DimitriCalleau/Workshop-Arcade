@@ -21,6 +21,7 @@ public class Character_Controller_1Player : MonoBehaviour
     public GameObject shooter;
     private GameObject P2;
     public Rigidbody2D rigidbody;
+    public Animator animator;
 
     //Vie et Score
     public int score = 0;
@@ -105,6 +106,7 @@ public class Character_Controller_1Player : MonoBehaviour
         //mort
         if (health <= 0)
         {
+            animator.SetBool("p2IsDead", true);
             AkSoundEngine.PostEvent("Char_Die", this.gameObject);
         }
 
