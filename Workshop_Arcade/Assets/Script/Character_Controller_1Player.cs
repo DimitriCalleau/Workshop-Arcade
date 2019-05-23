@@ -26,6 +26,10 @@ public class Character_Controller_1Player : MonoBehaviour
     public int score = 0;
     public int health = 4;
 
+    //Munition
+    public int munitions;
+    public int munitionsMax;
+
     void Start()
     {
         isGrounded = false;
@@ -44,8 +48,11 @@ public class Character_Controller_1Player : MonoBehaviour
             }
             if (isGrounded == false)
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                if (munitions > 0)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                }
             }
         }
     }
@@ -76,6 +83,8 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
         }
+
+
 
         //mort
         if (health <= 0)
