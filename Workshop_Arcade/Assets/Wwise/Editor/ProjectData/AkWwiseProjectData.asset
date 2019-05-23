@@ -29,8 +29,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184013
-    m_lastTimePsrt1: -1919924371
+    m_lastTimePart2: -1999184012
+    m_lastTimePsrt1: 616886798
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,8 +49,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184013
-    m_lastTimePsrt1: -1919948905
+    m_lastTimePart2: -1999184008
+    m_lastTimePsrt1: 1790018722
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:

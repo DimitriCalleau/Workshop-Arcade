@@ -59,6 +59,10 @@ public class Camera_Controller : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            gameObject.transform.position = new Vector3(0, P1.transform.position.y, distanceCam);
+        }
 
     }
 }
