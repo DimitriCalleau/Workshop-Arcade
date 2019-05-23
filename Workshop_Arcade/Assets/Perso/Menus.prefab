@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1284292647}
   - component: {fileID: 1284292649}
   - component: {fileID: 1284292648}
-  - component: {fileID: 1284292650}
   m_Layer: 5
   m_Name: Mort
   m_TagString: Untagged
@@ -80,19 +79,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
---- !u!114 &1284292650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284292646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 022eed05c0a1f4349993980afac68049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mort: {fileID: 1284292648}
 --- !u!1 &4887446769724478241
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,10 +220,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3747540e5fe8834caf09233fafeed20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelMort: {fileID: 0}
   vieJoueur1: {fileID: 4887446770444845835}
   vieJoueur2: {fileID: 4887446769724478243}
   scoreJoueur1: {fileID: 4887446770629057616}
   scoreJoueur2: {fileID: 4887446769895679372}
+  mort: {fileID: 0}
 --- !u!114 &4887446769745407383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,10 +602,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4887446770648446867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74945585eb6050343b90f71aab848ae5, type: 3}
+  m_Script: {fileID: 11500000, guid: e3747540e5fe8834caf09233fafeed20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panelMort: {fileID: 7763103217709974398}
+  vieJoueur1: {fileID: 4887446770444845835}
+  vieJoueur2: {fileID: 4887446769724478243}
+  scoreJoueur1: {fileID: 4887446770629057616}
+  scoreJoueur2: {fileID: 4887446769895679372}
+  mort: {fileID: 1284292648}
 --- !u!1 &7763103217709974398
 GameObject:
   m_ObjectHideFlags: 0
