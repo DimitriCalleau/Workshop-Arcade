@@ -80,6 +80,7 @@
 										<Action Name="" ID="{5027411A-7E11-496C-8A51-026FA15CECBA}" ShortID="484778184">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

@@ -238,6 +238,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Saut" ID="{DA5334BC-767C-4049-B4D3-315182065B7F}" ShortID="704838993">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
