@@ -23,7 +23,7 @@
 			<IncludedEvents>
 				<Event Id="1456456759" Name="block_break_ruby" ObjectPath="\Events\Default Work Unit\SoundFX\world\block_break_ruby" MaxAttenuation="0.000000"/>
 				<Event Id="3339248991" Name="block_break_shot" ObjectPath="\Events\Default Work Unit\SoundFX\world\block_break_shot" MaxAttenuation="0.000000"/>
-				<Event Id="3070183186" Name="Char_Die" ObjectPath="\Events\Default Work Unit\SoundFX\char\Char_Die" MaxAttenuation="0.000000"/>
+				<Event Id="2934094015" Name="Char_Hit" ObjectPath="\Events\Default Work Unit\SoundFX\char\Char_Hit" MaxAttenuation="0.000000"/>
 				<Event Id="2282846814" Name="Enm_Die_crush" ObjectPath="\Events\Default Work Unit\SoundFX\enm\Enm_Die_crush" MaxAttenuation="0.000000"/>
 				<Event Id="3825894009" Name="Enm_Die_Shot" ObjectPath="\Events\Default Work Unit\SoundFX\enm\Enm_Die_Shot" MaxAttenuation="0.000000"/>
 				<Event Id="483337048" Name="glue_trap" ObjectPath="\Events\Default Work Unit\SoundFX\world\glue_trap" MaxAttenuation="0.000000"/>

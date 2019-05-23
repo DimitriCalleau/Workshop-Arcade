@@ -14,7 +14,7 @@
 						<ObjectRef Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="block_break_shot" ID="{5DE4A70E-C635-4B26-9B70-C23476541683}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="shop_Ambient" ID="{F87933A6-14DC-4B3A-B91D-83B559DB8687}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Char_Die" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Hit" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Land" ID="{465707E1-38C9-4D7C-8A62-84FB9E879FD5}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enm_Die_crush" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

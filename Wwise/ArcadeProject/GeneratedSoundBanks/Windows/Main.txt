@@ -6,8 +6,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1813586822	spikes_trap			\Default Work Unit\SoundFX\world\spikes_trap	
 	2282846814	Enm_Die_crush			\Default Work Unit\SoundFX\enm\Enm_Die_crush	
 	2845900908	principal_Ambient			\Default Work Unit\ambiant\principal_Ambient	
+	2934094015	Char_Hit			\Default Work Unit\SoundFX\char\Char_Hit	
 	3038207054	Shoot			\Default Work Unit\SoundFX\char\Shoot	
-	3070183186	Char_Die			\Default Work Unit\SoundFX\char\Char_Die	
 	3339248991	block_break_shot			\Default Work Unit\SoundFX\world\block_break_shot	
 	3825894009	Enm_Die_Shot			\Default Work Unit\SoundFX\enm\Enm_Die_Shot	
 	3833651337	Jump			\Default Work Unit\SoundFX\char\Jump	

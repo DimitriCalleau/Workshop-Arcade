@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - Guid: '{C200B5AC-F74B-4875-A2AB-192157C94FEA}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849202834
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38697780
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   autoPopulateEnabled: 1
   AuxBusWwu:
   - Guid: '{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849152968
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38617773
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184231
-    m_lastTimePsrt1: 19282254
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38657926
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,19 +49,53 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184231
-    m_lastTimePsrt1: 19262309
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38577768
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
-    - Guid: 31ede6413066df4b8a9962fcb0173ce1
-      ID: -1224784110
-      Name: Char_Die
-      Path: Default Work Unit\SoundFX\Char_Die
+    - Guid: a2ce3f4f2db2d047a6c28c704af6088e
+      ID: 1456456759
+      Name: block_break_ruby
+      Path: Default Work Unit\SoundFX\world\block_break_ruby
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: world
+        ObjectType: 4
+      - ElementName: block_break_ruby
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 0ea7e45d35c6264b9b70c23476541683
+      ID: -955718305
+      Name: block_break_shot
+      Path: Default Work Unit\SoundFX\world\block_break_shot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: world
+        ObjectType: 4
+      - ElementName: block_break_shot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 31ede6413066df4b8a9962fcb0173ce1
+      ID: -1224784110
+      Name: Char_Die
+      Path: Default Work Unit\SoundFX\char\Char_Die
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: char
         ObjectType: 4
       - ElementName: Char_Die
         ObjectType: 3
@@ -69,15 +103,49 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
     - Guid: e39981013dda6d4f9a4ebe500b08ee1c
-      ID: -1360873281
-      Name: Char_Hit
-      Path: Default Work Unit\SoundFX\Char_Hit
+      ID: -2012120482
+      Name: Enm_Die_crush
+      Path: Default Work Unit\SoundFX\enm\Enm_Die_crush
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SoundFX
         ObjectType: 4
-      - ElementName: Char_Hit
+      - ElementName: enm
+        ObjectType: 4
+      - ElementName: Enm_Die_crush
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6764e62e7578f449a8390df8846dd6bc
+      ID: -469073287
+      Name: Enm_Die_Shot
+      Path: Default Work Unit\SoundFX\enm\Enm_Die_Shot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: enm
+        ObjectType: 4
+      - ElementName: Enm_Die_Shot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7662717224523b488ac40889f58bd40c
+      ID: 483337048
+      Name: glue_trap
+      Path: Default Work Unit\SoundFX\world\glue_trap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: world
+        ObjectType: 4
+      - ElementName: glue_trap
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -85,13 +153,61 @@ MonoBehaviour:
     - Guid: cd72e3d139f24f4a9270eaed79eef633
       ID: -461315959
       Name: Jump
-      Path: Default Work Unit\SoundFX\Jump
+      Path: Default Work Unit\SoundFX\char\Jump
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SoundFX
         ObjectType: 4
+      - ElementName: char
+        ObjectType: 4
       - ElementName: Jump
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e1075746c9387c4d8a6284fb9e879fd5
+      ID: 674522502
+      Name: Land
+      Path: Default Work Unit\SoundFX\char\Land
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: char
+        ObjectType: 4
+      - ElementName: Land
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4c3197df932b1147981616ae4adf6041
+      ID: -1449066388
+      Name: principal_Ambient
+      Path: Default Work Unit\ambiant\principal_Ambient
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ambiant
+        ObjectType: 4
+      - ElementName: principal_Ambient
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: edc55effc69e2d4891dd7e157d59a4f2
+      ID: -1256760242
+      Name: Shoot
+      Path: Default Work Unit\SoundFX\char\Shoot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: char
+        ObjectType: 4
+      - ElementName: Shoot
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -110,10 +226,24 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: f9add8e5e412294abcbed05f0e896e65
+      ID: 1813586822
+      Name: spikes_trap
+      Path: Default Work Unit\SoundFX\world\spikes_trap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundFX
+        ObjectType: 4
+      - ElementName: world
+        ObjectType: 4
+      - ElementName: spikes_trap
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /ArcadeProject
-  - /ArcadeProject/Events
-  - /ArcadeProject/Events/Default Work Unit
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
@@ -122,30 +252,30 @@ MonoBehaviour:
   preparePoolSize: 0
   RtpcWwu:
   - Guid: '{739D51E2-5C0E-4DB4-9CE6-B1F10258666A}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849123052
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38577768
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{4FA18C0D-4036-42AF-A283-3A8244C5ECDB}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849182888
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38697780
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   streamingPoolSize: 1024
   SwitchWwu:
   - Guid: '{D50A5FAC-5BD6-4E92-80B5-3384C0677F47}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849192862
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38697780
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{DA86A813-B2A3-432C-BB4D-3AAD2B76A2D0}'
-    m_lastTimePart2: -1999184236
-    m_lastTimePsrt1: 849192862
+    m_lastTimePart2: -1999184179
+    m_lastTimePsrt1: 38697780
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
