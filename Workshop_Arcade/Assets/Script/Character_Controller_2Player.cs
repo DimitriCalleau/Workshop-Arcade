@@ -105,7 +105,10 @@ public class Character_Controller_2Player : MonoBehaviour
             gameObject.transform.position = P1.transform.position;
             health = 4;
             score -= 50;
-            AkSoundEngine.PostEvent("Char_Die", this.gameObject);
+            if (score <= 0)
+            {
+                AkSoundEngine.PostEvent("Char_Die", this.gameObject);
+            }
         }
 
         if (isGrounded == true && jump == true)
