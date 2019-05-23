@@ -147,4 +147,9 @@ public class Character_Controller_1Player : MonoBehaviour
             Debug.Log("OOF P1");
         }
     }
+
+    public void Degat()
+    {
+        health -= 1;
+    }
 }
