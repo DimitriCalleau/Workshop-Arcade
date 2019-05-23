@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558613759" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\ArcadeProject.wproj" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Attenuations\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Audio Devices\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Conversion Settings\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Effects\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Effects\Factory Effects.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Events\Default Work Unit.wwu" DateLow="1558613759" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Game Parameters\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Interactive Music Hierarchy\main_test.wwu" DateLow="1558613759" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Modulators\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Presets\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Queries\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Queries\Factory Queries.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\SoundBanks\Default Work Unit.wwu" DateLow="1558611924" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\States\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Switches\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Triggers\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
+	<ValidationCacheItem File="D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1558523820" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop_Borne_Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558434430" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop_Borne_Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1555676446" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop_Borne_Arcade\Wwise\ArcadeProject\ArcadeProject.dimit.wsettings" DateLow="1558434451" DateHigh="0"/>

@@ -13,11 +13,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3833651337	Jump			\Default Work Unit\SoundFX\char\Jump	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	40582969	Mort	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Mort_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Mort\Mort		450456
-	95984925	Saut	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Saut_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Saut\Saut		82392
-	443003815	Enemis Mort Tir	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Enemis Mort Tir_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Enemis Mort Tir\Enemis Mort Tir		63732
-	731807385	Tir	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Tir_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Tir\Tir		82392
-	733038474	Destruction Bloc TIr	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Destruction Bloc TIr_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Destruction Bloc TIr\Destruction Bloc TIr		82392
-	789566016	Enemi Mort Ecrasé	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Enemi Mort Ecrasé_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Enemi Mort Ecrasé\Enemi Mort Ecrasé		96808
-	902780266	Touche le sol	E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Touche le sol_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Touche le sol\Touche le sol		49316
+	40582969	Mort	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Mort_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Mort\Mort		450456
+	95984925	Saut	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Saut_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Saut\Saut		82392
+	443003815	Enemis Mort Tir	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Enemis Mort Tir_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Enemis Mort Tir\Enemis Mort Tir		63732
+	731807385	Tir	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Tir_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Tir\Tir		82392
+	733038474	Destruction Bloc TIr	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Destruction Bloc TIr_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Destruction Bloc TIr\Destruction Bloc TIr		82392
+	789566016	Enemi Mort Ecrasé	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Enemi Mort Ecrasé_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Enemi Mort Ecrasé\Enemi Mort Ecrasé		96808
+	902780266	Touche le sol	D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\SFX\Touche le sol_F17FB28C.wem		\Interactive Music Hierarchy\main_test\Touche le sol\Touche le sol		49316
 
