@@ -14,7 +14,7 @@ public class Camera_Controller : MonoBehaviour
     private Vector3 positionP1y;
     private Vector3 positionP2y;
     public int distanceCam = -20;
-    private float trucpourlelerpjsaispascequecest = 1;
+    private float trucpourlelerpjsaispascequecest = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,35 +26,39 @@ public class Camera_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        positionP1y = new Vector3(0, P1.transform.position.y, distanceCam);
-        positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
-
-        moyenne = (P1.transform.position.y + P2.transform.position.y) / 2;
-        vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
-
-
-        if (P1.transform.position.y < moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
+        if(P2 != null)
         {
+            positionP1y = new Vector3(0, P1.transform.position.y, distanceCam);
+            positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
 
-            if (P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
+            moyenne = (P1.transform.position.y + P2.transform.position.y) / 2;
+            vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
+
+
+            if (P1.transform.position.y < moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
             {
-                gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
+
+                if (P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
+                {
+                    gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
+                }
+            }
+            else
+            {
+                if (P2.transform.position.y < P1.transform.position.y)
+                {
+                    transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, trucpourlelerpjsaispascequecest);
+                    P1.GetComponent<Character_Controller_1Player>().score -= 10;
+                    P1.transform.position = P2.transform.position;
+                }
+                if (P2.transform.position.y > P1.transform.position.y)
+                {
+                    transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
+                    P2.GetComponent<Character_Controller_2Player>().score -= 10;
+                    P2.transform.position = P1.transform.position;
+                }
             }
         }
-        else
-        {
-            if (P2.transform.position.y < P1.transform.position.y)
-            {
-                transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, trucpourlelerpjsaispascequecest);
-                P1.GetComponent<Character_Controller_1Player>().score -= 10;
-                P1.transform.position = P2.transform.position;
-            }
-            if (P2.transform.position.y > P1.transform.position.y)
-            {
-                transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
-                P2.GetComponent<Character_Controller_2Player>().score -= 10;
-                P2.transform.position = P1.transform.position;
-            }
-        }
+
     }
 }
