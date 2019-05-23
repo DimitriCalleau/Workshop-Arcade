@@ -57,6 +57,8 @@ public class Character_Controller_2Player : MonoBehaviour
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
                     Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
                     munitions -= 1;
+                    AkSoundEngine.PostEvent("Shoot", this.gameObject);
+                    Debug.Log("shoot");
                 }
             }
         }
