@@ -27,12 +27,11 @@
 				<Event Id="2934094015" Name="Char_Hit" ObjectPath="\Events\Default Work Unit\SoundFX\char\Char_Hit" MaxAttenuation="0.000000"/>
 				<Event Id="2282846814" Name="Enm_Die_crush" ObjectPath="\Events\Default Work Unit\SoundFX\enm\Enm_Die_crush" MaxAttenuation="0.000000"/>
 				<Event Id="3825894009" Name="Enm_Die_Shot" ObjectPath="\Events\Default Work Unit\SoundFX\enm\Enm_Die_Shot" MaxAttenuation="0.000000"/>
+				<Event Id="223926233" Name="GameAmbient" ObjectPath="\Events\Default Work Unit\ambiant\GameAmbient"/>
 				<Event Id="483337048" Name="glue_trap" ObjectPath="\Events\Default Work Unit\SoundFX\world\glue_trap" MaxAttenuation="0.000000"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\SoundFX\char\Jump" MaxAttenuation="0.000000"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\SoundFX\char\Land" MaxAttenuation="0.000000"/>
-				<Event Id="2845900908" Name="principal_Ambient" ObjectPath="\Events\Default Work Unit\ambiant\principal_Ambient" MaxAttenuation="0.000000"/>
 				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Default Work Unit\SoundFX\char\Shoot" MaxAttenuation="0.000000"/>
-				<Event Id="834167012" Name="shop_Ambient" ObjectPath="\Events\Default Work Unit\ambiant\shop_Ambient"/>
 				<Event Id="1813586822" Name="spikes_trap" ObjectPath="\Events\Default Work Unit\SoundFX\world\spikes_trap" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

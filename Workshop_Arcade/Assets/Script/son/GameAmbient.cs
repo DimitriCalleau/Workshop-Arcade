@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AmbientShop : MonoBehaviour
+public class GameAmbient : MonoBehaviour
 {
     public void Start()
     {
-        AkSoundEngine.PostEvent("shop_Ambient", this.gameObject);
+        AkSoundEngine.PostEvent("GameAmbient", this.gameObject);
     }
 }
