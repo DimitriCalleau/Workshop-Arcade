@@ -142,4 +142,9 @@ public class Character_Controller_2Player : MonoBehaviour
             health -= 1;
         }
     }
+
+    public void Degat()
+    {
+        health -= 1;
+    }
 }
