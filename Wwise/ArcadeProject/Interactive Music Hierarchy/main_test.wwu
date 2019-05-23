@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="main_test" ID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Destruction Bloc TIr" ID="{3820BDDB-47E1-4C00-A5FF-EFCD48A10023}" ShortID="141479787">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Destruction Bloc TIr" ID="{0B381E06-D2BD-4987-8A2B-B3FF2757B2A3}" ShortID="601652243">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Destruction Bloc TIr" ID="{2464ED54-50C2-403F-A1E5-974A8639A2C9}" ShortID="733038474">
+									<Language>SFX</Language>
+									<AudioFile>Destruction Bloc TIr.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{86B0C474-81FB-49F7-8526-323392369DAF}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{FC8B5D2F-4922-46DF-9802-1D26D21F6815}">
+									<ClipList>
+										<MusicClip Name="Destruction Bloc TIr" ID="{C12A8E57-40D1-498D-B222-FC45FEA48D31}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="466.349206349206"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Destruction Bloc TIr" ID="{2464ED54-50C2-403F-A1E5-974A8639A2C9}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{75358B59-A85A-4089-80FC-53DA2FF40895}"/>
+						<MusicCue Name="Exit Cue" ID="{FA8C4364-2C1E-48F1-B8AF-ABFCF84495A7}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Enemi Mort Ecrasé" ID="{F47EC6B5-3759-4617-8F0A-8DA0BC0AC1DD}" ShortID="441274494">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Enemi Mort Ecrasé" ID="{87D007A6-84CB-4CB3-8D3F-D92DC2B55902}" ShortID="393195164">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemi Mort Ecrasé" ID="{5E5C59CE-5DA2-438A-988D-47E843182071}" ShortID="789566016">
+									<Language>SFX</Language>
+									<AudioFile>Enemi Mort Ecrasé.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D821F564-10BD-4936-95C6-20668E346E95}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{854189A0-5C2B-4507-BA7C-2BC1E6128429}">
+									<ClipList>
+										<MusicClip Name="Enemi Mort Ecrasé" ID="{C7F74962-AAF7-48D5-A87D-8BF6415F837F}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="548.072562358277"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Enemi Mort Ecrasé" ID="{5E5C59CE-5DA2-438A-988D-47E843182071}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{3E101A4F-BF12-43A9-8DB0-950A56AB9F05}"/>
+						<MusicCue Name="Exit Cue" ID="{011747D4-E092-4E9D-9A57-9BD14EB742F4}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Enemis Mort Tir" ID="{4A62DC44-EB55-4315-A4CE-E54FEBC8030A}" ShortID="643737407">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Enemis Mort Tir" ID="{618AF6AC-6700-435E-840A-DDACA11758AE}" ShortID="123680049">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemis Mort Tir" ID="{E207BDA3-1763-41D9-A4A5-99280E3B2CE6}" ShortID="443003815">
+									<Language>SFX</Language>
+									<AudioFile>Enemis Mort Tir.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{539E8C45-CCDE-490B-A07E-9BF28EEDFE38}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{16D4D1ED-7B91-49AE-AE0F-D74E17FFDFD2}">
+									<ClipList>
+										<MusicClip Name="Enemis Mort Tir" ID="{AEA5A030-CAAF-4799-B5CB-5D1FB6EB54DE}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="360.566893424036"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Enemis Mort Tir" ID="{E207BDA3-1763-41D9-A4A5-99280E3B2CE6}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{E6ED8DD1-2E54-4E8F-9099-D499419748CE}"/>
+						<MusicCue Name="Exit Cue" ID="{F72A2C2F-8C4E-434B-884C-B162B8D2E578}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Mort" ID="{06CD468C-E83D-418E-B3AB-D897CC25DB53}" ShortID="201289013">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Mort" ID="{4A2F06BC-FB8E-4EB0-9157-606FE0269729}" ShortID="8475580">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mort" ID="{F2D9DB71-B31D-4117-81A5-08297052F23A}" ShortID="40582969">
+									<Language>SFX</Language>
+									<AudioFile>Mort.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{06F8CACE-0DF4-43E4-A15F-A3FD43C4B804}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{3F608D40-C0FD-4932-A465-D8FE28406050}">
+									<ClipList>
+										<MusicClip Name="Mort" ID="{E5CAC0B0-C2E0-47C8-B12C-CF5827A23D10}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="2552.8798185941"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Mort" ID="{F2D9DB71-B31D-4117-81A5-08297052F23A}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{084CBF75-522F-40C5-82F4-B1BA13B66E3F}"/>
+						<MusicCue Name="Exit Cue" ID="{531D0F14-9B84-47CB-AE30-3061FA48D7D9}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="2552.8798185941"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Saut" ID="{C8538A24-0328-4E50-98A4-156E7C2831F0}" ShortID="18216446">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Saut" ID="{DA5334BC-767C-4049-B4D3-315182065B7F}" ShortID="704838993">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saut" ID="{AAA79F3E-1271-4AAE-AC45-D98FEFD9B4C6}" ShortID="95984925">
+									<Language>SFX</Language>
+									<AudioFile>Saut.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A54BA45F-331F-4CDD-B715-F7140611379E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{56A130CD-8360-4708-A2FF-E8898D73DD98}">
+									<ClipList>
+										<MusicClip Name="Saut" ID="{98EBDB95-F236-4651-8F54-396EC163A89B}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="466.349206349206"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Saut" ID="{AAA79F3E-1271-4AAE-AC45-D98FEFD9B4C6}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{226F5320-2E5C-4AED-AE68-49AD2A08E62C}"/>
+						<MusicCue Name="Exit Cue" ID="{A3572F7D-E121-4D8A-8A95-66EC9109D649}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Tir" ID="{66D9EAF0-0E4D-4F82-B253-BBC2F08BB767}" ShortID="774323015">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Tir" ID="{70BF4C98-4BA4-41E3-992A-6E5E50E60E14}" ShortID="365054723">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tir" ID="{B7E09D38-618C-4499-AB8F-77198084FE16}" ShortID="731807385">
+									<Language>SFX</Language>
+									<AudioFile>Tir.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2271B190-ECB6-44F3-A04D-BB9A8BD6A937}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{E6C4DBE3-B8E1-4D66-973D-1E7AAF567873}">
+									<ClipList>
+										<MusicClip Name="Tir" ID="{6734A002-1344-4A75-BAA9-D1462C4FD2C0}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="466.349206349206"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Tir" ID="{B7E09D38-618C-4499-AB8F-77198084FE16}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{9800E138-A573-4422-BCCF-825C2D65BB00}"/>
+						<MusicCue Name="Exit Cue" ID="{48156F26-168F-483A-A8FB-A836695A745C}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Touche le sol" ID="{CE839AE9-BFBF-4886-A1D4-B03D976950A5}" ShortID="1021586999">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Touche le sol" ID="{BEDAC5DE-C2DB-4CC4-BBAB-5F30FCA8057B}" ShortID="400438782">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Touche le sol" ID="{2DA34E26-CF70-42BF-8DC0-68B636FC8270}" ShortID="902780266">
+									<Language>SFX</Language>
+									<AudioFile>Touche le sol.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{14B64AA4-8C29-48CC-818C-5D12ABC415E6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{65EEFB73-F72F-40CE-BE2F-081FEB3D47D5}">
+									<ClipList>
+										<MusicClip Name="Touche le sol" ID="{1E8A3755-B175-4A59-AA7E-EEF2BB6913A8}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="278.843537414966"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Touche le sol" ID="{2DA34E26-CF70-42BF-8DC0-68B636FC8270}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{A4BBBBEB-AF89-470D-BF68-3FED13E153E1}"/>
+						<MusicCue Name="Exit Cue" ID="{4305AF35-EA38-4E62-B020-6DCFE81E57B0}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

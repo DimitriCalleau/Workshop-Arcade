@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{0562C7FC-7667-4308-8DFC-05B07C314181}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="pet" ID="{7397E51C-496C-4D39-932B-6A99E78CB540}" ShortID="987122257">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>

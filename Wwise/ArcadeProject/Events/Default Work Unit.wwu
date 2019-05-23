@@ -28,22 +28,113 @@
 								<Event Name="glue_trap" ID="{72716276-5224-483B-8AC4-0889F58BD40C}"/>
 								<Event Name="spikes_trap" ID="{E5D8ADF9-12E4-4A29-BCBE-D05F0E896E65}"/>
 								<Event Name="block_break_ruby" ID="{4F3FCEA2-B22D-47D0-A6C2-8C704AF6088E}"/>
-								<Event Name="block_break_shot" ID="{5DE4A70E-C635-4B26-9B70-C23476541683}"/>
+								<Event Name="block_break_shot" ID="{5DE4A70E-C635-4B26-9B70-C23476541683}">
+									<ChildrenList>
+										<Action Name="" ID="{0EB7F6B8-C90A-4E11-89FA-040FEA04ADA0}" ShortID="570926083">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Destruction Bloc TIr" ID="{3820BDDB-47E1-4C00-A5FF-EFCD48A10023}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="char" ID="{84CB41B0-B5EA-4518-846F-84C1E8357A50}" ShortID="602458903">
 							<ChildrenList>
-								<Event Name="Land" ID="{465707E1-38C9-4D7C-8A62-84FB9E879FD5}"/>
+								<Event Name="Land" ID="{465707E1-38C9-4D7C-8A62-84FB9E879FD5}">
+									<ChildrenList>
+										<Action Name="" ID="{FA384165-A0D8-47CC-A475-2A63BFDE04F0}" ShortID="100080943">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Touche le sol" ID="{CE839AE9-BFBF-4886-A1D4-B03D976950A5}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Char_Hit" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}"/>
-								<Event Name="Shoot" ID="{FF5EC5ED-9EC6-482D-91DD-7E157D59A4F2}"/>
-								<Event Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}"/>
-								<Event Name="Char_Die" ID="{6733AF70-C7AE-4849-B966-B76DF1B743B6}"/>
+								<Event Name="Shoot" ID="{FF5EC5ED-9EC6-482D-91DD-7E157D59A4F2}">
+									<ChildrenList>
+										<Action Name="" ID="{C70E6F1C-B03C-4017-94CE-FD95C9AF9815}" ShortID="482307536">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Tir" ID="{66D9EAF0-0E4D-4F82-B253-BBC2F08BB767}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}">
+									<ChildrenList>
+										<Action Name="" ID="{5027411A-7E11-496C-8A51-026FA15CECBA}" ShortID="484778184">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Saut" ID="{C8538A24-0328-4E50-98A4-156E7C2831F0}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Char_Die" ID="{6733AF70-C7AE-4849-B966-B76DF1B743B6}">
+									<ChildrenList>
+										<Action Name="" ID="{2943333D-4BE5-4C83-A290-68405E90A9BE}" ShortID="717397304">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mort" ID="{06CD468C-E83D-418E-B3AB-D897CC25DB53}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="enm" ID="{2BC8BD03-596A-4D76-ADDB-85523931CE17}" ShortID="16406173">
 							<ChildrenList>
-								<Event Name="Enm_Die_crush" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}"/>
-								<Event Name="Enm_Die_Shot" ID="{2EE66467-7875-49F4-A839-0DF8846DD6BC}"/>
+								<Event Name="Enm_Die_crush" ID="{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}">
+									<ChildrenList>
+										<Action Name="" ID="{9E545812-4E85-4AB9-AECA-50BA503D1704}" ShortID="648607741">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Enemi Mort Ecrasé" ID="{F47EC6B5-3759-4617-8F0A-8DA0BC0AC1DD}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Enm_Die_Shot" ID="{2EE66467-7875-49F4-A839-0DF8846DD6BC}">
+									<ChildrenList>
+										<Action Name="" ID="{B0444BE2-91E8-41FC-A593-5A361053CF3A}" ShortID="1001815450">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Enemis Mort Tir" ID="{4A62DC44-EB55-4315-A4CE-E54FEBC8030A}" WorkUnitID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
