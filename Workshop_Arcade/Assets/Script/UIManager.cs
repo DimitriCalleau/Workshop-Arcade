@@ -28,27 +28,40 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreJoueur2.text = "Score P2: " + P2.GetComponent<Character_Controller_2Player>().score;
-        vieJoueur2.text = "Vie P2: " + P2.GetComponent<Character_Controller_2Player>().health;
+        if (P2 != null)
+        {
+            scoreJoueur2.text = "Score P2: " + P2.GetComponent<Character_Controller_2Player>().score;
+            vieJoueur2.text = "Vie P2: " + P2.GetComponent<Character_Controller_2Player>().health;
+        }
         vieJoueur1.text = "Vie P1: " + P1.GetComponent<Character_Controller_1Player>().health;
         scoreJoueur1.text = "Score P1: " + P1.GetComponent<Character_Controller_1Player>().score;
 
-        if (P1.GetComponent<Character_Controller_1Player>().score <= 0 || P2.GetComponent<Character_Controller_2Player>().score <= 0)
+        if (P2 != null)
         {
-            panelMort.SetActive(true);
-            Time.timeScale = 0;
+            if (P1.GetComponent<Character_Controller_1Player>().health <= 0 || P2.GetComponent<Character_Controller_2Player>().health <= 0)
+            {
+                panelMort.SetActive(true);
+                Time.timeScale = 0;
 
-            if (P1.GetComponent<Character_Controller_1Player>().score <= 0)
-            {
-                mort.text = "Le Joueur 1 à Perdu";
+                if (P1.GetComponent<Character_Controller_1Player>().health <= 0)
+                {
+                    mort.text = "Le Joueur 1 à Perdu";
+                }
+                else if (P2.GetComponent<Character_Controller_2Player>().health <= 0)
+                {
+                    mort.text = "Le Joueur 2 à Perdu";
+                }
+                else
+                {
+                    mort.text = "";
+                }
             }
-            else if (P2.GetComponent<Character_Controller_2Player>().score <= 0)
+        }
+        else
+        {
+            if(P1.GetComponent<Character_Controller_1Player>().health <= 0)
             {
-                mort.text = "Le Joueur 2 à Perdu";
-            }
-            else
-            {
-                mort.text = "";
+                mort.text = "Vous avez perdu gros naze....";
             }
         }
     }
