@@ -30,6 +30,8 @@ public class Character_Controller_1Player : MonoBehaviour
     public int munitions = 8;
     public int munitionsMax;
 
+    //land sound
+    public int landP1 = 0;
 
     private void Start()
     {
@@ -103,9 +105,22 @@ public class Character_Controller_1Player : MonoBehaviour
         //mort
         if (health <= 0)
         {
+            AkSoundEngine.PostEvent("Char_Die", this.gameObject);
             gameObject.transform.position = P2.transform.position;
             health = 4;
             score -= 50;
+        }
+
+        //son jump
+        if (isGrounded == true && jump == true)
+        {
+            landP1 += 1;
+            if (landP1 == 1)
+            {
+                AkSoundEngine.PostEvent("Land", this.gameObject);
+                Debug.Log("landP1");
+                landP1 = 0;
+            }
         }
     }
 
