@@ -6,14 +6,14 @@ public class Camera_Controller : MonoBehaviour
 {
     private GameObject P1;
     private GameObject P2;
-    private float moyenne = -5;
+    private float moyenne;
     public float hauteurMax = 17;
     public float hauteurMin = -17;
     private Vector3 vecteurab;
     private Vector3 vecteurMoyenne;
     private Vector3 positionP1y;
     private Vector3 positionP2y;
-    public int distanceCam = -2;
+    public int distanceCam = -20;
     private float trucpourlelerpjsaispascequecest = 1;
 
     // Start is called before the first frame update
