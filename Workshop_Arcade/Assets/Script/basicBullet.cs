@@ -8,10 +8,7 @@ public class basicBullet : MonoBehaviour
     public int bulletSpeed;
 
     public Rigidbody2D rigidbody2;
-    // Start is called before the first frame update
 
-
-    // Update is called once per frame
     void Update()
     {
         rigidbody2.AddForce(new Vector2(rigidbody2.velocity.x, -bulletSpeed));
@@ -21,10 +18,14 @@ public class basicBullet : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
+            AkSoundEngine.PostEvent("Enm_Die_Shot", this.gameObject);
+            Debug.Log("TriggerShotEnnemi"); 
             Destroy(this.gameObject);
         }
         if (other.gameObject.tag == "Ground")
         {
+            AkSoundEngine.PostEvent("block_break_shot", this.gameObject);
+            Debug.Log("TriggerShotBlock");
             Destroy(this.gameObject);
         }
     }
