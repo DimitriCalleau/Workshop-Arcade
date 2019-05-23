@@ -26,6 +26,8 @@ public class Camera_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(moyenne);
+
         positionP1y = new Vector3(0, P1.transform.position.y, distanceCam);
         positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
 
@@ -36,6 +38,7 @@ public class Camera_Controller : MonoBehaviour
         if (moyenne < hauteurMax && moyenne > hauteurMin)
         {
             gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
+
         }
         else
         {

@@ -27,8 +27,4 @@ public class menusController : MonoBehaviour
 
     }
 
-    public void Restart()
-    {
-        Time.timeScale = 1;
-    }
 }
