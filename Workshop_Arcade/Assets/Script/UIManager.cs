@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
             if (P1.GetComponent<Character_Controller_1Player>().health <= 0 || P2.GetComponent<Character_Controller_2Player>().health <= 0)
             {
                 panelMort.SetActive(true);
-                Time.timeScale = 0;
+    
 
                 if (P1.GetComponent<Character_Controller_1Player>().health <= 0)
                 {
@@ -64,5 +64,10 @@ public class UIManager : MonoBehaviour
                 mort.text = "Vous avez perdu gros naze....";
             }
         }
+    }
+
+    public void Restart()
+    {
+
     }
 }
