@@ -9,6 +9,7 @@
 						<ObjectRef Name="block_break_ruby" ID="{4F3FCEA2-B22D-47D0-A6C2-8C704AF6088E}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Shoot" ID="{FF5EC5ED-9EC6-482D-91DD-7E157D59A4F2}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="glue_trap" ID="{72716276-5224-483B-8AC4-0889F58BD40C}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Die" ID="{6733AF70-C7AE-4849-B966-B76DF1B743B6}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enm_Die_Shot" ID="{2EE66467-7875-49F4-A839-0DF8846DD6BC}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="spikes_trap" ID="{E5D8ADF9-12E4-4A29-BCBE-D05F0E896E65}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}" WorkUnitID="{38B25AD3-E406-4728-B3A7-4C6DB14A373F}" Filter="7" Origin="Manual"/>

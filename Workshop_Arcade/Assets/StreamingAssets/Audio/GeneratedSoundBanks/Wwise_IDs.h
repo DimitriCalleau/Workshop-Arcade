@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BLOCK_BREAK_RUBY = 1456456759U;
         static const AkUniqueID BLOCK_BREAK_SHOT = 3339248991U;
+        static const AkUniqueID CHAR_DIE = 3070183186U;
         static const AkUniqueID CHAR_HIT = 2934094015U;
         static const AkUniqueID ENM_DIE_CRUSH = 2282846814U;
         static const AkUniqueID ENM_DIE_SHOT = 3825894009U;
