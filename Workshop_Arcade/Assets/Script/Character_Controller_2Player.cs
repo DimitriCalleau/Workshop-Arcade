@@ -35,7 +35,6 @@ public class Character_Controller_2Player : MonoBehaviour
     void Start()
     {
         isGrounded = false;
-        P1 = GameObject.FindGameObjectsWithTag("Player")[0];
         munitionsMax = 8;
     }
 
@@ -102,9 +101,6 @@ public class Character_Controller_2Player : MonoBehaviour
 
         if (health <= 0)
         {
-            gameObject.transform.position = P1.transform.position;
-            health = 4;
-            score -= 50;
             AkSoundEngine.PostEvent("Char_Die", this.gameObject);
         }
 
