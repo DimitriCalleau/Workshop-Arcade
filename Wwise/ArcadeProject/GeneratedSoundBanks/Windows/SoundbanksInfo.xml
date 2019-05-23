@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\</ProjectRoot>
-		<SourceFilesRoot>D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Workshop-Arcade\Wwise\ArcadeProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Workshop-Arcade\Wwise\ArcadeProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Workshop-Arcade\Wwise\ArcadeProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\EARTSUP\Unity\Projets\Workshop-Arcade\Wwise\ArcadeProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Workshop-Arcade\Wwise\ArcadeProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

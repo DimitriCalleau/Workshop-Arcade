@@ -4,6 +4,36 @@
 		<WorkUnit Name="main_test" ID="{A1980249-E7CF-418B-B8C6-E65BEDF77D85}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSegment Name="Destruction Bloc TIr" ID="{3820BDDB-47E1-4C00-A5FF-EFCD48A10023}" ShortID="141479787">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{407FC60E-BE7F-47DB-89F5-61C3BEFDCF19}" ShortID="1055684717">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="New_Game_Parameter" ID="{6143DA33-C6C0-467B-A92E-E914711D1B7F}" WorkUnitID="{739D51E2-5C0E-4DB4-9CE6-B1F10258666A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6186C468-8E83-45F6-9126-C9B964593269}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-10</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-10</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
@@ -14,6 +44,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Destruction Bloc TIr" ID="{0B381E06-D2BD-4987-8A2B-B3FF2757B2A3}" ShortID="601652243">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
@@ -70,6 +107,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Enemi Mort Ecrasé" ID="{87D007A6-84CB-4CB3-8D3F-D92DC2B55902}" ShortID="393195164">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
@@ -126,6 +170,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Enemis Mort Tir" ID="{618AF6AC-6700-435E-840A-DDACA11758AE}" ShortID="123680049">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
@@ -172,6 +223,23 @@
 					</CueList>
 				</MusicSegment>
 				<MusicSegment Name="Mort" ID="{06CD468C-E83D-418E-B3AB-D897CC25DB53}" ShortID="201289013">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlaybackSpeed" Type="Real64">
+							<ValueList>
+								<Value>1.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
@@ -182,6 +250,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Mort" ID="{4A2F06BC-FB8E-4EB0-9157-606FE0269729}" ShortID="8475580">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
@@ -228,6 +303,13 @@
 					</CueList>
 				</MusicSegment>
 				<MusicSegment Name="Saut" ID="{C8538A24-0328-4E50-98A4-156E7C2831F0}" ShortID="18216446">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
@@ -239,9 +321,10 @@
 					<ChildrenList>
 						<MusicTrack Name="Saut" ID="{DA5334BC-767C-4049-B4D3-315182065B7F}" ShortID="704838993">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-96</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -301,6 +384,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Tir" ID="{70BF4C98-4BA4-41E3-992A-6E5E50E60E14}" ShortID="365054723">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
@@ -357,6 +452,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Touche le sol" ID="{BEDAC5DE-C2DB-4CC4-BBAB-5F30FCA8057B}" ShortID="400438782">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
