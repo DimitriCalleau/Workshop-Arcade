@@ -26,6 +26,9 @@ public class Character_Controller_1Player : MonoBehaviour
     public int score = 0;
     public int health = 4;
 
+    //land sound
+    public int land = 0;
+
     void Start()
     {
         isGrounded = false;
@@ -41,6 +44,7 @@ public class Character_Controller_1Player : MonoBehaviour
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
                 AkSoundEngine.PostEvent("Jump", this.gameObject);
+                Debug.Log("jump");
             }
             if (isGrounded == false)
             {
@@ -84,6 +88,19 @@ public class Character_Controller_1Player : MonoBehaviour
             health = 4;
             score -= 50;
         }
+
+        //son land
+        if (isGrounded == true && jump== true)
+        {
+            land += 1;
+            if (land == 1)
+            {
+                AkSoundEngine.PostEvent("Land", this.gameObject);
+                Debug.Log("Land");
+                land = 0;
+            }
+        }
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -105,7 +122,7 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             AkSoundEngine.PostEvent("Char_Hit", this.gameObject);
             health -= 1;
-            Debug.Log("ta grosse daronee");
+            Debug.Log("Oofed");
         }
     }
 }
