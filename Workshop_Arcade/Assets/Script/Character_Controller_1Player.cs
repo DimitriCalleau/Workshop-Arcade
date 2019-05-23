@@ -143,7 +143,7 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             AkSoundEngine.PostEvent("Char_Hit", this.gameObject);
             health -= 1;
-            Debug.Log("ta grosse daronee");
+            Debug.Log("OOF P1");
         }
     }
 }
