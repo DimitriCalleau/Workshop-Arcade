@@ -143,18 +143,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 8147758109402939183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd416c56a06f7244997c835d0e8672b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8245bcb3227369c46bf1bb79ecbc3ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 0
-  speed: 0
-  amortie: 0
+  jumpForce: 1500
+  speed: 15
+  amortie: 10
   jump: 0
   isGrounded: 0
-  ySpeed: 0
-  basicBullet: {fileID: 0}
-  shooter: {fileID: 0}
-  rigidbody: {fileID: 0}
+  ySpeed: -200
+  basicBullet: {fileID: 9186044996497062035, guid: fdb05d1f2e74e63439ff0dee27c6be14,
+    type: 3}
+  shooter: {fileID: 1584688521}
+  rigidbody: {fileID: 941047265}
   score: 0
   health: 4
   munitions: 8
