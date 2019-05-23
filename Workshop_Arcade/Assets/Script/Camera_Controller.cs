@@ -26,7 +26,9 @@ public class Camera_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(moyenne);
+        Debug.Log("moyenne : " + moyenne);
+        Debug.Log("position p2 : " + P2.transform.position.y);
+        Debug.Log("position p1 : " + P1.transform.position.y);
 
         positionP1y = new Vector3(0, P1.transform.position.y, distanceCam);
         positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
@@ -35,14 +37,14 @@ public class Camera_Controller : MonoBehaviour
 
         vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
 
-        if (moyenne < hauteurMax && moyenne > hauteurMin)
+        /*if (moyenne < hauteurMax && moyenne > hauteurMin)
         {
             gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
 
         }
         else
         {
-            if(P1.transform.position.y < P2.transform.position.y)
+            if(P1.transform.position.y < P2.transform.position.y )
             {
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
                 P2.GetComponent<Character_Controller_2Player>().score -= 10;
@@ -54,6 +56,11 @@ public class Camera_Controller : MonoBehaviour
                 P1.GetComponent<Character_Controller_1Player>().score -= 10;
                 P1.transform.position = P2.transform.position;
             }
+        }*/
+
+        if(P1.transform.position.y< moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
+        {
+
         }
     }
 }
