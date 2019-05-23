@@ -26,10 +26,16 @@ public class Character_Controller_1Player : MonoBehaviour
     public int score = 0;
     public int health = 4;
 
+    //Munitions
+    public int munitions = 8;
+    public int munitionsMax;
+
+
     void Start()
     {
         isGrounded = false;
         P2 = GameObject.FindGameObjectsWithTag("Player")[1];
+        munitionsMax = 8;
     }
 
     private void FixedUpdate()
@@ -44,8 +50,11 @@ public class Character_Controller_1Player : MonoBehaviour
             }
             if (isGrounded == false)
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                if (munitions > 0)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                }
             }
         }
     }
