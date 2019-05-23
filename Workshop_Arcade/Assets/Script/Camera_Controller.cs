@@ -37,34 +37,26 @@ public class Camera_Controller : MonoBehaviour
 
         vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
 
-        /*if (moyenne < hauteurMax && moyenne > hauteurMin)
-        {
-            gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
 
-        }
-        else
+        if(P1.transform.position.y< moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
         {
-            if(P1.transform.position.y < P2.transform.position.y )
+
+            if(P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
             {
-                transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
-                P2.GetComponent<Character_Controller_2Player>().score -= 10;
-                P2.transform.position = P1.transform.position;
+                gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
             }
-            if (P1.transform.position.y > P2.transform.position.y)
+            else
             {
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, trucpourlelerpjsaispascequecest);
                 P1.GetComponent<Character_Controller_1Player>().score -= 10;
                 P1.transform.position = P2.transform.position;
             }
-        }*/
-
-        if(P1.transform.position.y< moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
+        }
+        else
         {
-            if(P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
-            {
-                gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
-
-            }
+            transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
+            P2.GetComponent<Character_Controller_2Player>().score -= 10;
+            P2.transform.position = P1.transform.position;
         }
     }
 }
