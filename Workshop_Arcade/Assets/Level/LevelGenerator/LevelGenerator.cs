@@ -60,8 +60,8 @@ public class LevelGenerator : MonoBehaviour
             }
             else if (i == levelLenght)
             {
-                int partChoice = Random.Range(0, endingParts.Length);
-                nextPart = Instantiate(endingParts[partChoice], nextPart).transform.Find("NextPart").transform;
+                int partChoice = Random.Range(0, endingParts.Length-1);
+                Instantiate(endingParts[partChoice], nextPart).transform.Find("NextPart");
             }
             else
             {
