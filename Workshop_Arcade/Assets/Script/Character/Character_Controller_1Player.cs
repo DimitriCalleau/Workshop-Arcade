@@ -54,7 +54,18 @@ public class Character_Controller_1Player : MonoBehaviour
                 {
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
                     Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                    munitions -= 1;
                 }
+            }
+        }
+
+        if(isGrounded == true)
+        {
+            munitions += 1;
+
+            if(munitions >= munitionsMax)
+            {
+                munitions = munitionsMax;
             }
         }
     }
