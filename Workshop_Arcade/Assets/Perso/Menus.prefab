@@ -236,7 +236,6 @@ GameObject:
   - component: {fileID: 4887446769724478240}
   - component: {fileID: 4887446769724478242}
   - component: {fileID: 4887446769724478243}
-  - component: {fileID: 4887446769724478245}
   m_Layer: 5
   m_Name: Vies P2
   m_TagString: Untagged
@@ -256,7 +255,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4887446769745407380}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -305,19 +304,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &4887446769724478245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4887446769724478241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faea81c410a0a5d49bc8e67a59b239ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vieJoueur2: {fileID: 4887446769724478243}
 --- !u!1 &4887446769745407381
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4887446769745407380}
   - component: {fileID: 4887446769745407382}
+  - component: {fileID: 6729019707934014171}
   - component: {fileID: 4887446769745407383}
   m_Layer: 5
   m_Name: GUI
@@ -348,8 +335,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4887446770444845830}
-  - {fileID: 4887446770629057617}
   - {fileID: 4887446769724478240}
+  - {fileID: 4887446770629057617}
   - {fileID: 4887446769895679373}
   m_Father: {fileID: 4887446770648446871}
   m_RootOrder: 0
@@ -367,6 +354,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4887446769745407381}
   m_CullTransparentMesh: 0
+--- !u!114 &6729019707934014171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4887446769745407381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3747540e5fe8834caf09233fafeed20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vieJoueur1: {fileID: 4887446770444845835}
+  vieJoueur2: {fileID: 4887446769724478243}
+  scoreJoueur1: {fileID: 4887446770629057616}
+  scoreJoueur2: {fileID: 4887446769895679372}
 --- !u!114 &4887446769745407383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +410,6 @@ GameObject:
   - component: {fileID: 4887446769895679373}
   - component: {fileID: 4887446769895679375}
   - component: {fileID: 4887446769895679372}
-  - component: {fileID: 4887446769895679374}
   m_Layer: 5
   m_Name: Score P2
   m_TagString: Untagged
@@ -476,19 +478,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &4887446769895679374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4887446769895679370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e808ba5bfafff7240a7b381df66a787a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreJoueur2: {fileID: 4887446769895679372}
 --- !u!1 &4887446770444845831
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +488,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4887446770444845830}
   - component: {fileID: 4887446770444845832}
-  - component: {fileID: 4887446770444845833}
   - component: {fileID: 4887446770444845835}
   m_Layer: 5
   m_Name: Vies P1
@@ -535,19 +523,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4887446770444845831}
   m_CullTransparentMesh: 0
---- !u!114 &4887446770444845833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4887446770444845831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c02cacd43e9446940af6c88cd31d2e1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vieJoueur1: {fileID: 4887446770444845835}
 --- !u!114 &4887446770444845835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +568,6 @@ GameObject:
   - component: {fileID: 4887446770629057617}
   - component: {fileID: 4887446770629057619}
   - component: {fileID: 4887446770629057616}
-  - component: {fileID: 4887446770629057618}
   m_Layer: 5
   m_Name: Score P1
   m_TagString: Untagged
@@ -613,7 +587,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4887446769745407380}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -662,19 +636,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &4887446770629057618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4887446770629057646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89dc93acb6857e04db2017f3e9e4f47a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreJoueur1: {fileID: 4887446770629057616}
 --- !u!1 &4887446770648446867
 GameObject:
   m_ObjectHideFlags: 0
