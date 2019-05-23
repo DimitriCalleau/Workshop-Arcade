@@ -38,6 +38,7 @@
 								<Event Name="Char_Hit" ID="{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}"/>
 								<Event Name="Shoot" ID="{FF5EC5ED-9EC6-482D-91DD-7E157D59A4F2}"/>
 								<Event Name="Jump" ID="{D1E372CD-F239-4A4F-9270-EAED79EEF633}"/>
+								<Event Name="Char_Die" ID="{6733AF70-C7AE-4849-B966-B76DF1B743B6}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="enm" ID="{2BC8BD03-596A-4D76-ADDB-85523931CE17}" ShortID="16406173">

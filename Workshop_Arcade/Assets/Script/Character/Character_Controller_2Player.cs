@@ -25,6 +25,9 @@ public class Character_Controller_2Player : MonoBehaviour
     public int score = 0;
     public int health = 4;
 
+    //land sound
+    public int landP2 = 0;
+
     void Start()
     {
         isGrounded = false;
@@ -40,6 +43,7 @@ public class Character_Controller_2Player : MonoBehaviour
             {
                 rigidbody.AddForce(new Vector2(0f, jumpForce));
                 AkSoundEngine.PostEvent("Jump", this.gameObject);
+                Debug.Log("Jump");
             }
             if (isGrounded == false)
             {
@@ -79,9 +83,21 @@ public class Character_Controller_2Player : MonoBehaviour
 
         if (health <= 0)
         {
+            AkSoundEngine.PostEvent("Char_Die", this.gameObject);
             gameObject.transform.position = P1.transform.position;
             health = 4;
             score -= 50;
+        }
+
+        if (isGrounded == true && jump == true)
+        {
+            landP2 += 1;
+            if (landP2 == 1)
+            {
+                AkSoundEngine.PostEvent("Land", this.gameObject);
+                Debug.Log("land");
+                landP2 = 0;
+            }
         }
     }
 
@@ -102,7 +118,8 @@ public class Character_Controller_2Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("ta grosse daronee");
+            AkSoundEngine.PostEvent("Char_Hit", this.gameObject);
+            Debug.Log("Player 2 hit");
             health -= 1;
         }
     }
