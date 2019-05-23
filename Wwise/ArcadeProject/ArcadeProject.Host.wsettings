@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{20B7A402-099F-4CCB-96F5-07F15572DC26}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Workshop-Arcade\Wwise\ArcadeProject\Originals\SFX"/>
 				<Property Name="Event Action List\{018199E3-DA3D-4F6D-9A4E-BE500B08EE1C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2EE66467-7875-49F4-A839-0DF8846DD6BC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{41E6ED31-6630-4BDF-8A99-62FCB0173CE1}\x64_Expand States" Type="string" Value=""/>
@@ -12,6 +13,7 @@
 				<Property Name="Event Action List\{6733AF70-C7AE-4849-B966-B76DF1B743B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{72716276-5224-483B-8AC4-0889F58BD40C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D1E372CD-F239-4A4F-9270-EAED79EEF633}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D91171FE-ACA0-455D-A78F-8583C15738E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF97314C-2B93-4711-9816-16AE4ADF6041}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E5D8ADF9-12E4-4A29-BCBE-D05F0E896E65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F87933A6-14DC-4B3A-B91D-83B559DB8687}\x64_Expand States" Type="string" Value=""/>
