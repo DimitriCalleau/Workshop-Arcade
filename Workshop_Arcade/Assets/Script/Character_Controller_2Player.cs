@@ -28,10 +28,15 @@ public class Character_Controller_2Player : MonoBehaviour
     //land sound
     public int landP2 = 0;
 
+    // Munitions    
+    public int munitions = 8;
+    public int munitionMax;
+
     void Start()
     {
         isGrounded = false;
         P1 = GameObject.FindGameObjectsWithTag("Player")[0];
+        munitionMax = 8;
     }
 
     private void FixedUpdate()
@@ -47,8 +52,20 @@ public class Character_Controller_2Player : MonoBehaviour
             }
             if (isGrounded == false)
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                if (munitions > 0)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                    munitions -= 1;
+                }
+            }
+        }
+        if(isGrounded == true)
+        {
+            munitions += 1;
+            if(munitions >= munitionMax)
+            {
+                munitions = munitionMax;
             }
         }
     }
