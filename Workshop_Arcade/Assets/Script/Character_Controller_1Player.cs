@@ -5,15 +5,15 @@ using UnityEngine;
 public class Character_Controller_1Player : MonoBehaviour
 {
     //Movement et Tirs
-    public float jumpForce;
-    public int speed;
-    public int amortie;
+    public float jumpForce = 1500;
+    public int speed = 15;
+    public int amortie = 10;
 
     public bool jump;
     public bool isGrounded;
 
     private float horizontal;
-    public float ySpeed;
+    public float ySpeed = -200;
 
     private bool isShooting;
     public GameObject basicBullet;
