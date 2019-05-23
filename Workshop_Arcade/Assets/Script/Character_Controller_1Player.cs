@@ -35,9 +35,10 @@ public class Character_Controller_1Player : MonoBehaviour
 
     private void Start()
     {
-        isGrounded = false;
         P2 = GameObject.FindGameObjectsWithTag("Player")[1];
+
         munitionsMax = 8;
+        isGrounded = false;
     }
 
     private void FixedUpdate()

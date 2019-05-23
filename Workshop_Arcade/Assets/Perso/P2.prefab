@@ -157,7 +157,10 @@ MonoBehaviour:
   shooter: {fileID: 1584688521}
   rigidbody: {fileID: 941047265}
   score: 100
-  Health: 4
+  health: 4
+  landP2: 0
+  munitions: 8
+  munitionsMax: 0
 --- !u!58 &6049122209304191661
 CircleCollider2D:
   m_ObjectHideFlags: 0
