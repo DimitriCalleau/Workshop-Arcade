@@ -39,12 +39,19 @@ public class FlyingEnemy : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            //Damage player
+            if (other.gameObject.GetComponent<Character_Controller_1Player>() != null)
+            {
+                other.gameObject.GetComponent<Character_Controller_1Player>().Degat();
+            }
+            else if (other.gameObject.GetComponent<Character_Controller_2Player>() != null)
+            {
+                other.gameObject.GetComponent<Character_Controller_2Player>().Degat();
+            }
         }
     }
 
     void Death()
     {
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 0.1f);
     }
 }
