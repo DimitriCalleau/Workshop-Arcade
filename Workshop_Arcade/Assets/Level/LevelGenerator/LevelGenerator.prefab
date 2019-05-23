@@ -48,7 +48,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   player1: {fileID: 8147758109402939183, guid: d391c520ab0405d48bda12573577390f, type: 3}
   player2: {fileID: 8147758109402939183, guid: 63076596a42d91a4eafc9665fc0dd7c7, type: 3}
-  nextPart: {fileID: 0}
+  nextPart: {fileID: 5630773722421965838}
   startingParts:
   - {fileID: 5837206209171489495, guid: dba8ce94a44212642af30e4392257081, type: 3}
   levelPartsEasy:
