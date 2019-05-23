@@ -7,8 +7,8 @@ public class Camera_Controller : MonoBehaviour
     private GameObject P1;
     private GameObject P2;
     private float moyenne;
-    public float hauteurMax = 17;
-    public float hauteurMin = -17;
+    public float hauteurMax = 10;
+    public float hauteurMin = -10;
     private Vector3 vecteurab;
     private Vector3 vecteurMoyenne;
     private Vector3 positionP1y;
