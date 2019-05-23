@@ -103,7 +103,6 @@ public class Character_Controller_1Player : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
-            AkSoundEngine.PostEvent("Char_Hit", this.gameObject);
             health -= 1;
             Debug.Log("ta grosse daronee");
         }
