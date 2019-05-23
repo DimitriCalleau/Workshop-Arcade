@@ -34,6 +34,9 @@ public class Character_Controller_1Player : MonoBehaviour
     //land sound
     public int landP1 = 0;
 
+    //death sound
+    public int non_repeatP1 = 0;
+
     private void Start()
     {
         munitionsMax = 8;
@@ -108,6 +111,11 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             animator.SetBool("p2IsDead", true);
             AkSoundEngine.PostEvent("Char_Die", this.gameObject);
+            non_repeatP1 += 1;
+            if (non_repeatP1 == 1)
+            {
+                AkSoundEngine.PostEvent("Char_Die", this.gameObject);
+            }
         }
 
         //son jump
