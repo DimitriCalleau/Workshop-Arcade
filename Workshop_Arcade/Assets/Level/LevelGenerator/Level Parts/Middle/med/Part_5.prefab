@@ -138,6 +138,7 @@ Transform:
   - {fileID: 3393247462387018836}
   - {fileID: 286600893172266758}
   - {fileID: 6648598861422555386}
+  - {fileID: 2933926986798651383}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -306,11 +307,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (30)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -365,6 +361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (30)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -481,11 +482,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -540,6 +536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -596,11 +597,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (27)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -655,6 +651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -716,11 +717,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (18)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -776,6 +772,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (18)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &7812730977008815829 stripped
@@ -791,11 +792,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (24)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -850,6 +846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (24)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1116,11 +1117,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (23)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1175,6 +1171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (23)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1266,11 +1267,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (34)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1325,6 +1321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (34)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1391,11 +1392,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1450,6 +1446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1606,11 +1607,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1665,6 +1661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1731,11 +1732,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1790,6 +1786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -1848,6 +1849,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210863565190750399, guid: 6105afb00fef18d4fa92d39e33789063,
     type: 3}
   m_PrefabInstance: {fileID: 2035219474391679356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2045389315399628203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9183468193665743321}
+    m_Modifications:
+    - target: {fileID: 5793578943788011418, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_Name
+      value: FlyingEnemy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.612005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.645986
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55443e31e2e02b448b3308c10ed9ee77, type: 3}
+--- !u!4 &2933926986798651383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3807170826736165468, guid: 55443e31e2e02b448b3308c10ed9ee77,
+    type: 3}
+  m_PrefabInstance: {fileID: 2045389315399628203}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2045948271682828409
 PrefabInstance:
@@ -2106,11 +2182,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (25)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2165,6 +2236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -2271,11 +2347,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (29)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2330,6 +2401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -2396,11 +2472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2171056963918064692}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_RootOrder
@@ -2421,6 +2492,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &5720224206779960769 stripped
@@ -2436,11 +2512,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2495,6 +2566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -2561,11 +2637,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2620,6 +2691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -2911,11 +2987,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2970,6 +3041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -3136,11 +3212,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (21)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3195,6 +3266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (21)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -3336,11 +3412,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (31)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3395,6 +3466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -3461,11 +3537,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (22)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3520,6 +3591,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (22)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -3681,11 +3757,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3740,6 +3811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -3806,11 +3882,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3866,6 +3937,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (14)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &3971449467480068318 stripped
@@ -3881,11 +3957,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3940,6 +4011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -4056,11 +4132,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (32)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4116,6 +4187,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (32)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &3553680196308467435 stripped
@@ -4131,11 +4207,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4191,6 +4262,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &4083484969761208535 stripped
@@ -4206,11 +4282,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4265,6 +4336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -4431,11 +4507,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4491,6 +4562,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (12)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &290529950000016654 stripped
@@ -4506,11 +4582,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4565,6 +4636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -4631,11 +4707,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (26)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4690,6 +4761,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (26)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -5001,11 +5077,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5061,6 +5132,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (7)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &756907353449825368 stripped
@@ -5076,11 +5152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (20)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5135,6 +5206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (20)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -5251,11 +5327,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5311,6 +5382,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (15)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &1666023618916049665 stripped
@@ -5326,11 +5402,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5386,6 +5457,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (8)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &1601038373893944378 stripped
@@ -5401,11 +5477,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2171056963918064692}
     m_Modifications:
-    - target: {fileID: 6761160675298442109, guid: 6b091fde426eeb34b80abec187cc4221,
-        type: 3}
-      propertyPath: m_Name
-      value: SpikesSide
-      objectReference: {fileID: 0}
     - target: {fileID: 4125801761251793310, guid: 6b091fde426eeb34b80abec187cc4221,
         type: 3}
       propertyPath: m_RootOrder
@@ -5425,6 +5496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761160675298442109, guid: 6b091fde426eeb34b80abec187cc4221,
+        type: 3}
+      propertyPath: m_Name
+      value: SpikesSide
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b091fde426eeb34b80abec187cc4221, type: 3}
@@ -5541,11 +5617,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5601,6 +5672,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (16)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &2277914109177957316 stripped
@@ -5616,11 +5692,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (19)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5675,6 +5746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (19)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
@@ -5741,11 +5817,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (35)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5801,6 +5872,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (35)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
 --- !u!4 &2127151991270279049 stripped
@@ -5816,11 +5892,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 286600893172266758}
     m_Modifications:
-    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
-        type: 3}
-      propertyPath: m_Name
-      value: FragileBlock (28)
-      objectReference: {fileID: 0}
     - target: {fileID: 7480227368839737136, guid: ab2b05bf8666a35449bd962da6dce607,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5875,6 +5946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241688258315029971, guid: ab2b05bf8666a35449bd962da6dce607,
+        type: 3}
+      propertyPath: m_Name
+      value: FragileBlock (28)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2b05bf8666a35449bd962da6dce607, type: 3}
