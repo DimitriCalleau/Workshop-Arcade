@@ -29,8 +29,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{3F661372-C2A9-4800-8A71-0A944C49728F}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38657926
+    m_lastTimePart2: -1999184041
+    m_lastTimePsrt1: -1938772016
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -49,8 +49,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{38B25AD3-E406-4728-B3A7-4C6DB14A373F}'
-    m_lastTimePart2: -1999184179
-    m_lastTimePsrt1: 38577768
+    m_lastTimePart2: -1999184041
+    m_lastTimePsrt1: -1938796669
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -87,9 +87,9 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
     - Guid: 31ede6413066df4b8a9962fcb0173ce1
-      ID: -1224784110
-      Name: Char_Die
-      Path: Default Work Unit\SoundFX\char\Char_Die
+      ID: -1360873281
+      Name: Char_Hit
+      Path: Default Work Unit\SoundFX\char\Char_Hit
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -97,7 +97,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: char
         ObjectType: 4
-      - ElementName: Char_Die
+      - ElementName: Char_Hit
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
