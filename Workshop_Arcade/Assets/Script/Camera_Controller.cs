@@ -30,17 +30,15 @@ public class Camera_Controller : MonoBehaviour
         positionP2y = new Vector3(0, P2.transform.position.y, distanceCam);
 
         moyenne = (P1.transform.position.y + P2.transform.position.y) / 2;
-
         vecteurMoyenne = new Vector3(0, moyenne, distanceCam);
 
 
         if (P1.transform.position.y < moyenne + hauteurMax && P1.transform.position.y > moyenne + hauteurMin)
         {
-            Debug.Log("p1 dans moyenne");
+
             if (P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
             {
                 gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
-                Debug.Log("p2 dans moyenne");
             }
         }
         else
@@ -50,14 +48,12 @@ public class Camera_Controller : MonoBehaviour
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP2y, trucpourlelerpjsaispascequecest);
                 P1.GetComponent<Character_Controller_1Player>().score -= 10;
                 P1.transform.position = P2.transform.position;
-                Debug.Log("p1 hors moyenne");
             }
             if (P2.transform.position.y > P1.transform.position.y)
             {
                 transform.position = Vector3.Lerp(vecteurMoyenne, positionP1y, trucpourlelerpjsaispascequecest);
                 P2.GetComponent<Character_Controller_2Player>().score -= 10;
                 P2.transform.position = P1.transform.position;
-                Debug.Log("p2 hors moyenne");
             }
         }
     }
