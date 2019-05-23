@@ -63,6 +63,7 @@ public class Camera_Controller : MonoBehaviour
             if(P2.transform.position.y < moyenne + hauteurMax && P2.transform.position.y > moyenne + hauteurMin)
             {
                 gameObject.transform.position = new Vector3(0, moyenne, distanceCam);
+
             }
         }
     }
