@@ -3,7 +3,13 @@ guid: e3747540e5fe8834caf09233fafeed20
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - panelMort: {instanceID: 0}
+  - vieJoueur1: {instanceID: 0}
+  - vieJoueur2: {instanceID: 0}
+  - scoreJoueur1: {instanceID: 0}
+  - scoreJoueur2: {instanceID: 0}
+  - mort: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
