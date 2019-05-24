@@ -158,7 +158,7 @@ MonoBehaviour:
     type: 3}
   shooter: {fileID: 1584688521}
   rigidbody: {fileID: 941047265}
-  animator: {fileID: 0}
+  animator: {fileID: 4557866195412175211}
   score: 100
   health: 4
   munitions: 8

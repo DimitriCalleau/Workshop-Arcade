@@ -158,7 +158,7 @@ MonoBehaviour:
     type: 3}
   shooter: {fileID: 1584688521}
   rigidbody: {fileID: 941047265}
-  animator: {fileID: 0}
+  animator: {fileID: 1719393206116799977}
   score: 100
   health: 4
   landP2: 0
