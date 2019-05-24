@@ -24,7 +24,7 @@ public class Character_Controller_1Player : MonoBehaviour
     public Animator animator;
 
     //Vie et Score
-    public int score = 0;
+    public float score = 0;
     public int health = 4;
 
     //Munitions
@@ -87,7 +87,6 @@ public class Character_Controller_1Player : MonoBehaviour
                     Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
                     munitions -= 1;
                     AkSoundEngine.PostEvent("Shoot", this.gameObject);
-                    Debug.Log("shoot");
                     jump = false;
                 }
             }
@@ -104,8 +103,11 @@ public class Character_Controller_1Player : MonoBehaviour
         }
 
         //score
-
-
+        float positionInt = 0;
+        positionInt += Mathf.Floor(transform.position.y);
+        score =100 + Mathf.Floor(-positionInt / Time.time)*5;
+        Debug.Log(Time.time);
+        
         //mort
         if (health <= 0)
         {
@@ -125,7 +127,6 @@ public class Character_Controller_1Player : MonoBehaviour
             if (landP1 == 1)
             {
                 AkSoundEngine.PostEvent("Land", this.gameObject);
-                Debug.Log("landP1");
                 landP1 = 0;
             }
         }
@@ -150,7 +151,6 @@ public class Character_Controller_1Player : MonoBehaviour
         {
             AkSoundEngine.PostEvent("Char_Hit", this.gameObject);
             health -= 1;
-            Debug.Log("OOF P1");
         }
     }
 

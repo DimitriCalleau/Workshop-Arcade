@@ -23,7 +23,7 @@ public class Character_Controller_2Player : MonoBehaviour
     public Animator animator;
 
     //Vie et Score
-    public int score = 0;
+    public float score = 0;
     public int health = 4;
 
     //land sound
@@ -65,6 +65,11 @@ public class Character_Controller_2Player : MonoBehaviour
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
         }
 
+        //score
+        float positionInt = 0;
+        positionInt += Mathf.Floor(transform.position.y);
+        score = 100 + (Mathf.Floor(-positionInt / Time.time) * 5);
+        Debug.Log(Time.time);
         //mort
 
         if (health <= 0)
