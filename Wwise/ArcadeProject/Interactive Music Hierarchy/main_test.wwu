@@ -504,6 +504,230 @@
 						</MusicCue>
 					</CueList>
 				</MusicSegment>
+				<MusicSegment Name="Bird" ID="{4443D45F-C178-45E2-BC85-50670FC72252}" ShortID="251320501">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Bird" ID="{2432E999-303B-485F-9FB5-DCB7143B846D}" ShortID="657165486">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bird" ID="{81F23D56-8551-41C9-9FB5-042C4D666141}" ShortID="179924260">
+									<Language>SFX</Language>
+									<AudioFile>Bird.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FB352806-1F4B-42BD-847E-17B046AA6495}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{E6423B3B-FC8A-4968-A150-D456411250DE}">
+									<ClipList>
+										<MusicClip Name="Bird" ID="{D86F937C-0DC4-4073-B41C-90A12B2ACAC3}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1850.95238095238"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Bird" ID="{81F23D56-8551-41C9-9FB5-042C4D666141}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{5EE1C6EE-1958-49FF-B967-91B1C6F8E482}"/>
+						<MusicCue Name="Exit Cue" ID="{DB908EE6-0E8E-4FCC-9F75-A6AD412B5332}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1850.95238095238"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Fish" ID="{5DC9B084-952E-43CD-A01A-7CE944798EF5}" ShortID="102560306">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Fish" ID="{5642CE43-562E-4FFD-A4B7-1A2AFE40D56C}" ShortID="999565956">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fish" ID="{AAA728DD-40E2-422F-9DEA-B15A3E76A1E3}" ShortID="556651970">
+									<Language>SFX</Language>
+									<AudioFile>Fish.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2BBA4714-DDC9-460C-8A9B-F839948001E2}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{82729B48-82C9-4FA5-B193-792B7FB35BF9}">
+									<ClipList>
+										<MusicClip Name="Fish" ID="{4A15AC4C-5008-4A3B-9F68-F29C425FA689}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1850.95238095238"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Fish" ID="{AAA728DD-40E2-422F-9DEA-B15A3E76A1E3}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{4B5AE00D-25D2-462C-8B18-AE73B7F00F60}"/>
+						<MusicCue Name="Exit Cue" ID="{6ACEB323-558B-4DC7-8A26-82EF65C4225C}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1850.95238095238"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Larve" ID="{F4F67E1B-5809-4517-81C4-56725BEA5DB4}" ShortID="432224484">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Larve" ID="{977EABAB-5209-4455-9B80-C8F18AB583A1}" ShortID="502307990">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Larve" ID="{7C002E1A-A163-4F76-88E9-1EC4797BE0EE}" ShortID="596342408">
+									<Language>SFX</Language>
+									<AudioFile>Larve.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{B783287D-B10B-44C6-B9F3-184AA27F5136}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{17FC75C9-D3C2-4FD3-B1D9-7CFB534737F0}">
+									<ClipList>
+										<MusicClip Name="Larve" ID="{1529FE70-7CCD-49ED-B9D2-01C614AA9E8E}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1850.95238095238"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Larve" ID="{7C002E1A-A163-4F76-88E9-1EC4797BE0EE}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{7FD14055-EED2-40EE-8741-81B18888A01A}"/>
+						<MusicCue Name="Exit Cue" ID="{C5D67A4A-8087-45A8-9BD9-903C56D834B7}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1850.95238095238"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Monstre_oeil" ID="{E8825BDC-DBF7-45F3-BAD8-C2874F984C4B}" ShortID="265106917">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7CA42FE-7DCD-4D33-9697-0EB948BDEE01}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Monstre_oeil" ID="{D4F792A2-98A6-4897-A2B8-4D5441F37F8F}" ShortID="847405240">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{10FAC2F2-5DD0-4EB0-A121-2A2145D26EBF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Monstre_oeil" ID="{F7164821-E94D-443E-8F81-AB6B051652B5}" ShortID="347119202">
+									<Language>SFX</Language>
+									<AudioFile>Monstre_oeil.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{96210F81-1B09-43B7-B42F-8EDA4D45A616}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{AD1A3DDB-A3D2-4248-B37C-2B6ABA45D563}">
+									<ClipList>
+										<MusicClip Name="Monstre_oeil" ID="{4D0239FB-A6CA-4F11-B0C7-FC67063F280D}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1850.95238095238"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Monstre_oeil" ID="{F7164821-E94D-443E-8F81-AB6B051652B5}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{9ADF6423-15BF-4585-83E3-02DA40ADEEE4}"/>
+						<MusicCue Name="Exit Cue" ID="{B2AF8819-9EF6-4179-B6DF-1711ECE026FD}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1850.95238095238"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

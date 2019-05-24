@@ -2,7 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="85">
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558613371" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1558606456" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\ArcadeProject.Host.wsettings" DateLow="1558614742" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\ArcadeProject.Host.wsettings" DateLow="1558619943" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\ArcadeProject.wproj" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Attenuations\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Audio Devices\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
@@ -12,10 +12,10 @@
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Effects\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Effects\Factory Effects.wwu" DateLow="1558606456" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Events\Default Work Unit.wwu" DateLow="1558613510" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Game Parameters\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Events\Default Work Unit.wwu" DateLow="1558616718" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Game Parameters\Default Work Unit.wwu" DateLow="1558617417" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Interactive Music Hierarchy\main_test.wwu" DateLow="1558613371" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Interactive Music Hierarchy\main_test.wwu" DateLow="1558618077" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Workshop-Arcade\Wwise\ArcadeProject\Modulators\Default Work Unit.wwu" DateLow="1558606456" DateHigh="0"/>
