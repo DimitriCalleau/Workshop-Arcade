@@ -21,6 +21,8 @@ public class LevelGenerator : MonoBehaviour
     public GameObject[] levelPartsHard;
     public GameObject[] endingParts;
 
+    private TriggerFin trigger;
+
     void Start()
     {
         List<int> mediumPartsPos = new List<int>();
@@ -30,7 +32,6 @@ public class LevelGenerator : MonoBehaviour
         for (int i = 0; i < level; i++)
         {
             mediumPartsPos.Add(Random.Range(0, levelLenght));
-            Debug.Log("Medium part set to index " + mediumPartsPos[i]);
         }
 
         for (int i = 5; i < level; i++)
@@ -61,7 +62,7 @@ public class LevelGenerator : MonoBehaviour
             else if (i == levelLenght)
             {
                 int partChoice = Random.Range(0, endingParts.Length-1);
-                Instantiate(endingParts[partChoice], nextPart).transform.Find("NextPart");
+                trigger = Instantiate(endingParts[partChoice], nextPart).transform.Find("TriggerFin").GetComponent<TriggerFin>();
             }
             else
             {
@@ -70,6 +71,7 @@ public class LevelGenerator : MonoBehaviour
                 {
                     if(mediumPartsPos[j] == i && !partSet)
                     {
+                        Debug.Log("Medium part set at position " + i);
                         int partChoice = Random.Range(0, levelPartsMedium.Length);
                         nextPart = Instantiate(levelPartsMedium[partChoice], nextPart).transform.Find("NextPart").transform;
                         partSet = true;
@@ -79,6 +81,7 @@ public class LevelGenerator : MonoBehaviour
                 {
                     if (hardPartsPos[j] == i && !partSet)
                     {
+                        Debug.Log("Hard part set at position " + i);
                         int partChoice = Random.Range(0, levelPartsHard.Length);
                         nextPart = Instantiate(levelPartsHard[partChoice], nextPart).transform.Find("NextPart").transform;
                         partSet = true;
@@ -97,10 +100,20 @@ public class LevelGenerator : MonoBehaviour
     
     private void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.R))
         {
             Debug.Log("Reloading Scene!");
+            //level--;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        if (trigger.lvlFinished)
+        {
+            Debug.Log("Next level");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        
     }
 }
