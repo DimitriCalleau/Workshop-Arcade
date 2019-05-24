@@ -8,7 +8,7 @@ public class FlyingDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.tag.Equals("Player"))
+        if (collision.transform.tag.Equals("Player") || collision.transform.tag.Equals("Bullet"))
         {
             playerDetected = true;
         }
