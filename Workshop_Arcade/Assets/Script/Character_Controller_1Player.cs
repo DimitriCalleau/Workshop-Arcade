@@ -106,7 +106,6 @@ public class Character_Controller_1Player : MonoBehaviour
         float positionInt = 0;
         positionInt += Mathf.Floor(transform.position.y);
         score =100 + Mathf.Floor(-positionInt / Time.time)*5;
-        Debug.Log(Time.time);
         
         //mort
         if (health <= 0)
