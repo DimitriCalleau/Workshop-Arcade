@@ -43,40 +43,6 @@ public class Character_Controller_1Player : MonoBehaviour
         isGrounded = false;
     }
 
-    private void FixedUpdate()
-    {
-        //Jump et Tire
-        if (jump == true)
-        {
-            if (isGrounded == true)
-            {
-                rigidbody.AddForce(new Vector2(0f, jumpForce));
-                AkSoundEngine.PostEvent("Jump", this.gameObject);
-            }
-            if (isGrounded == false)
-            {
-                if (munitions > 0)
-                {
-                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
-                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
-                    munitions -= 1;
-                    AkSoundEngine.PostEvent("Shoot", this.gameObject);
-                    Debug.Log("shoot");
-                }
-            }
-        }
-
-        if(isGrounded == true)
-        {
-            munitions += 1;
-
-            if(munitions >= munitionsMax)
-            {
-                munitions = munitionsMax;
-            }
-        }
-    }
-
     void Update()
     {
         //Inputs
@@ -104,6 +70,40 @@ public class Character_Controller_1Player : MonoBehaviour
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, ySpeed);
         }
 
+        //Jump et Tire
+        if (jump == true)
+        {
+            if (isGrounded == true)
+            {
+                rigidbody.AddForce(new Vector2(0f, jumpForce));
+                AkSoundEngine.PostEvent("Jump", this.gameObject);
+                jump = false;
+            }
+            if (isGrounded == false)
+            {
+                if (munitions > 0)
+                {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, amortie);
+                    Instantiate(basicBullet, shooter.transform.position, shooter.transform.rotation);
+                    munitions -= 1;
+                    AkSoundEngine.PostEvent("Shoot", this.gameObject);
+                    Debug.Log("shoot");
+                    jump = false;
+                }
+            }
+        }
+
+        if (isGrounded == true)
+        {
+            munitions += 1;
+
+            if (munitions >= munitionsMax)
+            {
+                munitions = munitionsMax;
+            }
+        }
+
+        //score
 
 
         //mort
